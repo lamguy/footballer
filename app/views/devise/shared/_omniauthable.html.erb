@@ -1,0 +1,8 @@
+<%- if devise_mapping.omniauthable? %>
+ <div class="authenable">
+  <%= content_tag(:p, 'Do you already have an account on one of these sites? Click the logo to log in with it here:') %>
+  <%- resource_class.omniauth_providers.each do |provider| %>
+    <%= link_to "Đăng nhập với<br>".html_safe + content_tag(:span, provider.to_s, :class => "fc-webicon xlarge #{provider.to_s}"), omniauth_authorize_path(resource_name, provider), :class => 'authenable_link' %><br />
+  <% end -%>
+ </div>
+<% end -%>

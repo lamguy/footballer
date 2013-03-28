@@ -1,12 +1,20 @@
 $main_text_color: #595959;
 $main_text_size: 14px;
-$main_text_line_height: 23px;
+$main_text_line_height: 21px;
 
 $facebook_color: #4C66A4;
 
 body p {
 	font-size: $main_text_size;
 	line-height: $main_text_line_height;
+}
+
+.fc-webicon.xlarge {
+	width: 75px;
+	height: 75px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
 }
 
 #top-bar-wrapper {
@@ -191,5 +199,26 @@ label {
 }
 
 .panel form, .panel .button.last {
+	margin: 0;
+}
+
+
+/* ======= Authenable =========== */
+.authenable {
+	margin-bottom: 20px;
+}
+
+.authenable .authenable_link {
+	color: #888888;
+	font-size: 11px;
+	border: none;
+}
+
+.authenable .authenable_link:hover {
+	border: none;
+}
+
+.authenable .authenable_link span {
+	box-shadow: none;
 	margin: 0;
 }
