@@ -1,6 +1,6 @@
 Footballer::Application.routes.draw do
   devise_for :users,
-              :path => 'auth',
+              :path => 'account',
               :path_names => { :sign_in => 'login', 
                                :sign_out => 'logout',
                                :password => 'password',
