@@ -42,7 +42,7 @@
 
 			    <li class="divider"></li>
 			    <li class="has-dropdown">
-			      <%= link_to 'Howdy ' + current_user.firstname, edit_registration_path(:user) %>
+			      <%= link_to 'Howdy ' + current_user.email, edit_registration_path(:user) %>
 			      <ul class="dropdown">
 			      	<li><a href="">Trang cá nhân</a></li>
 			        <li><%= link_to "Sign out", destroy_session_path(:user), :method => :delete %></li>
@@ -50,7 +50,7 @@
 			    </li>
 		    	<li></li>
 		    <% else %>
-		    	<li><%= link_to "Sign in", new_session_path(:user) %></li>			
+		    	<li><%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %></li>			
 			<% end %>
 
 		  </ul>
