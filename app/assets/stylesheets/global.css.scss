@@ -4,6 +4,10 @@ $main_text_line_height: 23px;
 
 $facebook_color: #4C66A4;
 
+#top-bar-wrapper {
+	background: #000000;
+}
+
 .top-bar-section ul li > a.button.facebook {
 	-moz-border-radius: 3px; /* from vector shape */
 	-webkit-border-radius: 3px; /* from vector shape */
