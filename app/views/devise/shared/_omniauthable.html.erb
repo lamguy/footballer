@@ -5,4 +5,13 @@
     <%= link_to "Đăng nhập với<br>".html_safe + content_tag(:span, provider.to_s, :class => "fc-webicon xlarge #{provider.to_s}"), omniauth_authorize_path(resource_name, provider), :class => 'authenable_link' %><br />
   <% end -%>
  </div>
+
+ <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+  <p>hoặc <strong><%= link_to 'nhấn vào đây để đăng ký', new_user_registration_path %></strong></p>
+ <% end -%>
+
+ <%- if controller_name != 'sessions' %>
+  <p>hoặc <strong><%= link_to 'nhấn vào đây để đăng nhập', new_user_session_path %></strong></p>
+ <% end -%>
+
 <% end -%>
