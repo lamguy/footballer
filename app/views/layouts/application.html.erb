@@ -44,7 +44,7 @@
 			    <li class="has-dropdown">
 			      <%= link_to 'Howdy ' + current_user.email, edit_registration_path(:user) %>
 			      <ul class="dropdown">
-			      	<li><a href="">Trang cá nhân</a></li>
+			      	<li><%= link_to "Trang cá nhân", edit_user_registration_path %></li>
 			        <li><%= link_to "Sign out", destroy_session_path(:user), :method => :delete %></li>
 			      </ul>
 			    </li>
