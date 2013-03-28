@@ -1,0 +1,404 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sess",
+				"session_destroy"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"st",
+				"studio"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"privile",
+				"privilege"
+			],
+			[
+				"user",
+				"user_level"
+			],
+			[
+				"is_user",
+				"is_user_logged_in"
+			],
+			[
+				"ob_en",
+				"ob_end_flush"
+			],
+			[
+				"doc",
+				"doc_f	Function"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"mysqli_",
+				"mysqli_execute"
+			],
+			[
+				"bind_pa",
+				"mysqli_bind_param"
+			],
+			[
+				"a",
+				"array	$… = array (…)"
+			],
+			[
+				"arrayp",
+				"array_push"
+			],
+			[
+				"wp_res",
+				"wp_reset_query"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"site",
+				"site_url"
+			],
+			[
+				"wp_getat",
+				"wp_get_attachment_image"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"get_attachment_im",
+				"wp_get_attachment_image"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"car",
+				"card_number"
+			],
+			[
+				"all",
+				"all_required"
+			],
+			[
+				"addre",
+				"address_attributes"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Controin",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/me/Dropbox/rails/footballer/Gemfile",
+		"/Users/me/Dropbox/rails/footballer/config/environments/development.rb",
+		"/Users/me/Dropbox/rails/footballer/app/views/layouts/application.html.erb",
+		"/Users/me/Dropbox/rails/footballer/config/routes.rb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130328063351_add_additional_fields_to_users.rb",
+		"/Users/me/Dropbox/rails/footballer/app/views/devise/sessions/new.html.erb",
+		"/Users/me/dev/assignments/INEW1224/kidflix/KidFlix",
+		"/Users/me/dev/assignments/INEW1224/kidflix/sidebar.php",
+		"/Users/me/dev/assignments/INEW1224/kidflix/functions.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/index.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/content-single.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/images.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/content-news-item.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-news.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/single.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/stylesheets/app.css",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/javascripts/app.js",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-industry.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/sftp-config.json",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/stylesheets/app.css",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/index.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/footer.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/quotes.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/menu.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/widgets.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-motion.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/slides.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/users.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/option_data/global.xml",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/sidebar-motion.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/footer.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/header.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-services.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-company.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/setting.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/setting.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-list.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/option_data/global.xml",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/dashboard.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/users.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/images.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/js/setting_script.js",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/css/setting_style.css",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/meta.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/functions.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/scripts.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/sidebar-products.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/page-products.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/header.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/menu.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/sftp-config.json",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/style.css",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/style.css",
+		"/Volumes/tdev/thought-dev.com/html/dev/wp-content/plugins/disable-verification.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/single-client.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/css/setting_style.css",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/clients.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/sidebar-tv.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/functions.php",
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-dev/sftp-config.json",
+		"/Users/me/dev/projects/jacob/thoughtdev/html/ZURB-Foundation3-Navigation.gstencil/data.plist",
+		"/opt/local/apache2/conf/httpd.conf",
+		"/opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_devel_apr/apr/main.log",
+		"/private/etc/apache2/original/httpd.conf",
+		"/Library/WebServer/Documents/index.html.en",
+		"/Users/me/dev/projects/ken/vault/wordpress/vault.sublime-workspace",
+		"/Users/me/dev/projects/ken/vault/wordpress/vault.sublime-project",
+		"/Users/me/dev/projects/ken/vault/wordpress/libs/css/setting_style.css",
+		"/Users/me/dev/projects/me/rails/weddability/lib/creditcard_helper.rb",
+		"/Users/me/dev/projects/me/rails/weddability/lib/creditcard_validator.rb",
+		"/Users/me/dev/projects/me/rails/weddability/lib/creditcard",
+		"/Users/me/dev/projects/me/rails/weddability/db/migrate/20121008111921_add_payment_token_to_account.rb",
+		"/Users/me/dev/projects/me/rails/weddability/config/application.rb",
+		"/Users/me/dev/projects/me/rails/weddability/Gemfile",
+		"/Users/me/dev/projects/me/rails/weddability/app/controllers/orders_controller.rb",
+		"/Users/me/dev/projects/me/rails/weddability/app/models/address.rb",
+		"/Users/me/dev/projects/me/rails/weddability/app/models/order.rb",
+		"/Users/me/dev/projects/me/rails/weddability/config/database.yml",
+		"/Users/me/dev/projects/me/rails/weddability/.gitignore",
+		"/Users/me/dev/projects/me/rails/weddability/cd",
+		"/Users/me/Library/Application Support/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/etc/hosts",
+		"/Users/me/dev/projects/me/rails/weddability/app/views/accounts/menu/_login_items_html.erb",
+		"/Users/me/dev/projects/me/rails/weddability/app/views/accounts/passwords/new.html.erb",
+		"/Users/me/dev/projects/me/rails/weddability/app/views/accounts/sessions/new.html.erb",
+		"/Users/me/.profile",
+		"/etc/apache2/httpd.conf"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"button",
+			"#main_nav .nav-bar > li a",
+			".top-bar ul > li.has-dropdown .dropdown li",
+			"navigation",
+			".button:hover",
+			"#slider .slide_content {",
+			"#slider .slide_content h",
+			"quote",
+			"quotes",
+			"quote",
+			".orbit div.orbit-slide",
+			"#sidebar {",
+			".page #slider_client {",
+			"#sidebar .side-nav li",
+			"#sidebar .side-nav li, #sidebar .widget ul li",
+			"wp_die",
+			"forum",
+			"#sidebar .side-nav li a",
+			"#sidebar .side-nav li a, #sidebar .widget ul li a",
+			"slider",
+			"#socials ul",
+			"BUKKA DESIGN",
+			"Company",
+			"tubepress",
+			"mbl_options",
+			"themename",
+			"mbl_add_admin",
+			"admin_menu",
+			"mbl_add_admin",
+			"mbl_add_init",
+			"<span></span>",
+			"mbl_create_client_meta_boxes",
+			"mbl_client_meta_box",
+			"alias",
+			"documentroot",
+			"Image error: /opt/local/bin/apr-1-config already exists",
+			"documentroot",
+			"column",
+			"get"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 846.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true
+}
