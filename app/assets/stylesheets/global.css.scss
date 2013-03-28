@@ -8,6 +8,11 @@ $facebook_color: #4C66A4;
 	background: #000000;
 }
 
+.top-bar-section .profile_avatar {
+	float: left;
+	margin: 10px 5px 0 0;
+}
+
 .top-bar-section ul li > a.button.facebook {
 	-moz-border-radius: 3px; /* from vector shape */
 	-webkit-border-radius: 3px; /* from vector shape */
