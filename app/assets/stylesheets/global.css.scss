@@ -1,0 +1,37 @@
+$main_text_color: #595959;
+$main_text_size: 13px;
+$main_text_line_height: 23px;
+
+.top-bar-section li a:not(.button) {
+	background: #FFFFFF;
+	color: $main_text_color;
+	font-size: $main_text_size;
+}
+
+.top-bar-section li a:not(.button):hover {
+    background: #FFFFFF;
+}
+
+.top-bar-section li.has-dropdown > a {
+	z-index: 1001;
+	position: relative;
+}
+
+.top-bar-section .dropdown {
+    background-color: #fff; /* layer fill content */
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.24); /* drop shadow */
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.24); /* drop shadow */
+	box-shadow: 0 0 5px rgba(0,0,0,.24); /* drop shadow */
+	z-index: 1000;
+	padding: 0 15px;
+}
+
+.top-bar-section .dropdown li a {
+	border-bottom: solid 1px #d9e5bd;
+	padding-left: 0;
+}
+
+.top-bar-section .dropdown li:last-child a {
+	border-bottom: none;
+	margin-bottom: 5px;
+}
