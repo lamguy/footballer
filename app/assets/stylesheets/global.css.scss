@@ -9,6 +9,7 @@ body p {
 	line-height: $main_text_line_height;
 }
 
+/* ======= SVG Icons =========== */
 .fc-webicon.xlarge {
 	width: 75px;
 	height: 75px;
@@ -17,6 +18,8 @@ body p {
 	border-radius: 6px;
 }
 
+
+/* ======= Navigation =========== */
 #top-bar-wrapper {
 	background: #000000;
 }
@@ -206,6 +209,7 @@ label {
 /* ======= Authenable =========== */
 .authenable {
 	margin-bottom: 20px;
+	color: #888888;
 }
 
 .authenable .authenable_link {
