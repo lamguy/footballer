@@ -1,29 +1,61 @@
-<h2>Edit <%= resource_name.to_s.humanize %></h2>
+<h2>Chỉnh sửa <%= resource_name.to_s.humanize %></h2>
+
+<h4 class="subheader">Trang cá nhân giúp bạn thay đổi thông tin cá nhân của mình trong hệ thống.</h4>
+
+<hr>
 
 <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
   <%= devise_error_messages! %>
 
-  <div><%= f.label :email %><br />
+  <div>
+    <%= f.label :firstname, 'Tên' %>
+    <%= f.text_field :firstname %>
+  </div>
+
+  <div>
+    <%= f.label :lastname, 'Họ' %>
+    <%= f.text_field :lastname %>
+  </div>
+
+  <div><%= f.label :email %>
   <%= f.email_field :email, :autofocus => true %></div>
+
+  <div>
+    <%= f.label :phone, 'Số điện thoại' %>
+    <%= f.text_field :phone, :placeholder => 'Số điện thoại dùng để liên lạc trong trường hợp khẩn cấp' %>
+  </div>
+
+  <div>
+    <%= f.label :address, 'Địa chỉ' %>
+    <%= f.text_field :address, :placeholder => 'Không bắt buộc' %>
+  </div>
+
+  <div>
+    <%= f.label :city, 'Thành phố' %>
+    <%= f.text_field :city, :placeholder => 'Nơi bạn sinh sống' %>
+  </div>
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
     <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
   <% end %>
 
-  <div><%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
-  <%= f.password_field :password, :autocomplete => "off" %></div>
+  <div><%= f.label :password, 'Mật khẩu mới' %>
+  <%= f.password_field :password, :autocomplete => "off", :placeholder => 'Bạn bên để trống nếu không muốn đổi' %></div>
 
-  <div><%= f.label :password_confirmation %><br />
+  <div><%= f.label :password_confirmation, 'Xác nhận mật khẩu mới' %>
   <%= f.password_field :password_confirmation %></div>
 
-  <div><%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
-  <%= f.password_field :current_password %></div>
+  <div><%= f.label :current_password, 'Mật khẩu hiện tại' %>
+  <%= f.password_field :current_password, :placeholder => 'Bạn cần nhập mật khẩu hiện tại nếu muốn thay đổi bất kì thông tin nào' %></div>
 
-  <div><%= f.submit "Update" %></div>
+  <div><%= f.submit "Update", :class => 'button small' %></div>
 <% end %>
 
-<h3>Cancel my account</h3>
+<div class="panel">
+  <h3>Xóa tài khoản</h3>
+  <p>Nếu bạn cảm thấy không thoải mái khi tham gia Footballervn, chúng tôi có chức năng tự xóa tài khoản giúp bạn xóa sạch hoàn toàn mọi thông tin cá nhân chính bạn trên hệ thống. Một khi sử dụng nút xóa tài khoản ở dưới, bạn đồng ý với chính sách xóa tài khoản.</p>
 
-<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), :data => { :confirm => "Are you sure?" }, :method => :delete %>.</p>
+  <%= button_to "Cancel my account", registration_path(resource_name), :data => { :confirm => "Are you sure?" }, :method => :delete, :class => 'button small alert last' %>
+</div>
 
-<%= link_to "Back", :back %>
+<%= link_to "&laquo; Quay lại".html_safe, :back %>

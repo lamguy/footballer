@@ -1,8 +1,8 @@
 3.2.5 (Media Mark)
-e1cdfc0831f8e5cc7b6e930bda8925ea45db4df1
+fe64e9c2381e6f6d4e301c76606059746124f9f0
 o:Sass::Tree::RootNode
 :
-@linei:@template"‘{// Required global settings and mixins for Foundation
+@linei:@template"”{// Required global settings and mixins for Foundation
 @import "foundation/foundation-global";
 
 // Settings file to override Foundation variables
@@ -972,7 +972,7 @@ e1cdfc0831f8e5cc7b6e930bda8925ea45db4df1
 //
 
 // Background color for the top bar
-// $topbar-bg: #111;
+// $topbar-bg: #000000;
 
 // Height and margin
 // $topbar-height: 45px;
@@ -1987,8 +1987,8 @@ e1cdfc0831f8e5cc7b6e930bda8925ea45db4df1
  * Top Bar Variables
  * */o;
 ;;;iÊ;	@;
-[ ;["@/* Background color for the top bar
- * $topbar-bg: #111; */o;
+[ ;["C/* Background color for the top bar
+ * $topbar-bg: #000000; */o;
 ;;;iÍ;	@;
 [ ;["]/* Height and margin
  * $topbar-height: 45px;

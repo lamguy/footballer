@@ -40,7 +40,7 @@
 		  <ul class="right">
 		  	<% if user_signed_in? %>
 
-			    <li class="divider"></li>
+			    <!--<li class="divider"></li>-->
 			    <li class="has-dropdown">
 			      <%= link_to image_tag(current_user.facebook_avatar, :alt => 'My awesome profile avatar', :size => '25x25', :class => "profile_avatar") + ' Howdy ' + current_user.firstname, edit_user_registration_path %>
 			      <ul class="dropdown">
