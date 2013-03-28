@@ -50,7 +50,7 @@
 			    </li>
 		    	<li></li>
 		    <% else %>
-		    	<li><%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %></li>			
+		    	<li><%= link_to ('<span class="glyph social facebook">d</span> Sign in with Facebook').html_safe, user_omniauth_authorize_path(:facebook), :class => 'button facebook' %></li>			
 			<% end %>
 
 		  </ul>

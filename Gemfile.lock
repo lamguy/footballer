@@ -48,6 +48,9 @@ GEM
       multi_json (~> 1.0)
     faraday (0.8.7)
       multipart-post (~> 1.1)
+    foundation-icons-rails (0.0.1.2)
+      rails (~> 3.0)
+      sass
     hashie (1.2.0)
     hike (1.2.1)
     httpauth (0.2.0)
@@ -138,6 +141,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
+  foundation-icons-rails
   jquery-rails
   omniauth
   omniauth-facebook
