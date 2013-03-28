@@ -3,13 +3,13 @@ $main_text_size: 13px;
 $main_text_line_height: 23px;
 
 .top-bar-section li a:not(.button) {
-	background: #FFFFFF;
-	color: $main_text_color;
-	font-size: $main_text_size;
 }
 
-.top-bar-section li a:not(.button):hover {
+.top-bar-section li a:not(.button):hover, 
+.top-bar-section li.has-dropdown.hover a:not(.button),
+.top-bar-section li.hover a:not(.button) .dropdown li a {
     background: #FFFFFF;
+	color: $main_text_color;
 }
 
 .top-bar-section li.has-dropdown > a {

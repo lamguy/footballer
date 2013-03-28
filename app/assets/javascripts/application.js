@@ -16,4 +16,11 @@
 //= require_tree .
 
 //= require foundation
-$(document).foundation();
+$(document).foundation('dropdown topbar');
+$(document).ready(function() {
+	$('.has-dropdown *').mouseover(function() {
+		$(this).parents('.has-dropdown').addClass('hover');
+	}).mouseout(function() {
+		$(this).parents('.has-dropdown').removeClass('hover');
+	});
+})
