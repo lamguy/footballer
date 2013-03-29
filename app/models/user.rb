@@ -4,6 +4,7 @@ class User < ActiveRecord::Base
   # :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
+         :confirmable,
          :omniauthable, :omniauth_providers => [:facebook, :twitter]
 
   # Setup accessible (or protected) attributes for your model
@@ -53,5 +54,13 @@ class User < ActiveRecord::Base
       end
     end
   end
+
+  protected
+
+  #skip required confirmation for users if you want they still can login
+  def confirmation_required?
+	false
+  end
+
 
 end
