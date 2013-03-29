@@ -28,7 +28,15 @@
 <%= link_to 'Back', posts_path %>
 
   <div id="comment-container">
-    <h2>Add a comment:</h2>
+    <h2>Bình luận về trận đấu:</h2>
+    <hr>
+    
+    <!-- begin #comment-list -->
+    <div id="comment-list">
+      <%= render @post.comments %>
+    </div>
+    <!-- end #comment-list -->
+
     <%= form_for([@post, @post.comments.build]) do |f| %>
       <p class="field">
         <%= current_user.firstname + ' ' + current_user.lastname %>

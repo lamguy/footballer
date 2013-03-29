@@ -1,0 +1,22 @@
+<div class="comment-item">
+	<div class="row">
+		<div class="comment-votes small-2 columns"></div>
+		<div class="comment-body small-10 columns">
+			<%= comment.comment.html_safe %>
+		</div>
+	</div>
+	<div class="comment-footer row">
+		<div class="comment-meta small-6 columns">
+			<a href="">Sửa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+			<a href="">Báo cáo vi phạm</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+			<a href="">Trả lời</a>
+		</div>
+		<div class="comment-author small-6 columns">
+			<%= link_to image_tag(comment.user.facebook_avatar, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path %>
+			<span class="author-name-meta">
+				Bởi <strong><%= comment.user.firstname + ' ' + comment.user.lastname %></strong> - 2h trước <br>
+				<a href="" class="button xsmall green">Theo</a>
+			</span>
+		</div>
+	</div>
+</div>
