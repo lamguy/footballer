@@ -1,6 +1,11 @@
 <div class="comment-item">
 	<div class="row">
-		<div class="comment-votes small-2 columns"></div>
+		<div class="comment-votes small-2 columns">
+			    <input type="hidden" value="5219535">
+			    <a class="vote-up-off" title="This question shows research effort; it is useful and clear (click again to undo)">up vote</a>
+			    <span class="vote-count-post ">1</span>
+			    <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful (click again to undo)">down vote</a> 
+		</div>
 		<div class="comment-body small-10 columns">
 			<%= simple_format(comment.comment).html_safe %>
 		</div>

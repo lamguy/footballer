@@ -28,48 +28,6 @@ p.page-timestamp {
 	margin-top: 50px;
 }
 
-#comment-container {
-	margin-top: 50px;
-}
-
-#comment-container h2 {
-	color: #fa7332; /* text color */
-	font-size: 14px;
-	line-height: 100%;
-	text-transform: uppercase;
-}
-
-.comment-item .comment-meta, .comment-item .comment-meta a {
-	font-size: 10px;
-	letter-spacing: 0.25;
-	line-height: 100%;
-	color: #8f8f8f;
-	text-transform: uppercase;
-}
-
-.comment-item img.comment-author-avatar {
-	float: right;
-}
-
-.comment-item .author-name-meta {
-	font-size: 10px;
-	letter-spacing: 0.25;
-	line-height: 100%;
-	color: #8f8f8f;
-	text-transform: uppercase;
-	float: right;
-	margin-right: 10px;
-}
-
-.comment-item .author-name-meta strong {
-	color: #000000;
-}
-
-.comment-item .author-name-meta .button {
-	margin-top: 8px;
-	float: right;
-}
-
 form textarea.redactor#post_summary {
 	height: 120px;
 }
