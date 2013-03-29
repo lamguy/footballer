@@ -5,7 +5,7 @@
     <th>Title</th>
     <th>Summary</th>
     <th>Content</th>
-    <th>Type</th>
+    <th>Post Type</th>
     <th>Tags</th>
     <th>User</th>
     <th></th>
@@ -18,9 +18,9 @@
     <td><%= post.title %></td>
     <td><%= post.summary %></td>
     <td><%= post.content %></td>
-    <td><%= post.type %></td>
+    <td><%= post.posttype %></td>
     <td><%= post.tags %></td>
-    <td><%= post.user %></td>
+    <td><%= post.user.firstname + ' ' + post.user.lastname %></td>
     <td><%= link_to 'Show', post %></td>
     <td><%= link_to 'Edit', edit_post_path(post) %></td>
     <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>

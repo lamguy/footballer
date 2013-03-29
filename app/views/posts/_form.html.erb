@@ -17,15 +17,15 @@
   </p>
   <p class="field">
     <%= f.label :summary %>
-    <%= text_area_tag :summary, '', :class => 'redactor', :rows => 10 %>
+    <%= f.text_area :summary, :class => 'redactor', :rows => 10 %>
   </p>
   <p class="field">
     <%= f.label :content %>
-    <%= text_area_tag :content, '', :class => 'redactor', :rows => 30 %>
+    <%= f.text_area :content, :class => 'redactor', :rows => 30 %>
   </p>
   <p class="field">
-    <%= f.label :type %>
-    <%= f.text_field :type %>
+    <%= f.label :posttype %>
+    <%= f.text_field :posttype %>
   </p>
   <p class="field">
     <%= f.label :tags %>
