@@ -1,39 +1,41 @@
-<div class="auth-form small-6 columns push-3" id="login">     
-	<div class="box-shadow">
-      <div class="auth-form-header">
-        <h1>Đăng nhập</h1>
-      </div>
-      <div class="auth-form-body">
+<div class="row">
+	<div class="auth-form small-6 columns push-3" id="login">     
+		<div class="box-shadow">
+	      <div class="auth-form-header">
+	        <h1>Đăng nhập</h1>
+	      </div>
+	      <div class="auth-form-body">
 
-		<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
-		  <p><%= f.label :email %>
-		  <%= f.email_field :email, :autofocus => true %></p>
+			<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+			  <p><%= f.label :email %>
+			  <%= f.email_field :email, :autofocus => true %></p>
 
-		  <p>
-		  	<%= f.label :password  do %>
-		  		Mật Khẩu
-		  		<%- if devise_mapping.recoverable? && controller_name != 'passwords' %>
-				  <%= link_to "(Quên mật khẩu?)", new_password_path(resource_name) %>
+			  <p>
+			  	<%= f.label :password  do %>
+			  		Mật Khẩu
+			  		<%- if devise_mapping.recoverable? && controller_name != 'passwords' %>
+					  <%= link_to "(Quên mật khẩu?)", new_password_path(resource_name) %>
+					<% end -%>
+				<% end %>
+				<%= f.password_field :password %>
+			  </p>
+			  <p class="submit-block">
+		  		<%= f.submit "Sign in", :class => 'button left' %>
+				<% if devise_mapping.rememberable? -%>
+			    	<%= f.label :remember_me do %>
+			    		<%= f.check_box :remember_me %>
+			    		Nhớ tài khoản
+			    	<% end %>
 				<% end -%>
+			  </p>
 			<% end %>
-			<%= f.password_field :password %>
-		  </p>
-		  <p class="submit-block">
-	  		<%= f.submit "Sign in", :class => 'button left' %>
-			<% if devise_mapping.rememberable? -%>
-		    	<%= f.label :remember_me do %>
-		    		<%= f.check_box :remember_me %>
-		    		Nhớ tài khoản
-		    	<% end %>
-			<% end -%>
-		  </p>
-		<% end %>
-		
-		<hr>
+			
+			<hr>
 
-		<%= render 'devise/shared/omniauthable' %>
+			<%= render 'devise/shared/omniauthable' %>
 
-		<%= render "devise/shared/links" %>
-      </div>
-    </div>
+			<%= render "devise/shared/links" %>
+	      </div>
+	    </div>
+	</div>
 </div>
