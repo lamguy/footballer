@@ -3,6 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #post-container {
+	top: -85px;
+	position: relative;
+	z-index: 400;
+	background: #FFFFFF;
 }
 
 #post-container h1.post-heading {
@@ -17,4 +21,9 @@
 	font-weight: 300;
 	margin-top: 0.2em;
 	margin-bottom: 0.5em;
+}
+
+p.page-timestamp {
+	padding: 0;
+	margin-top: 50px;
 }

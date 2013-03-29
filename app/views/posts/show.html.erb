@@ -2,7 +2,13 @@
 
 <p id="notice"><%= notice %></p>
 
-<div class="large-7 columns" id="post-container">
+  <p class="page-timestamp small-6 large-2 columns">
+    <span class="date"><%= @post.created_at.strftime("%d/%m/%Y") %></span> 
+    <br>
+    <strong class="post-author"><%= @post.user.firstname + ' ' + @post.user.lastname %></strong>
+  </p>
+
+<div class="small-8 large-6 columns" id="post-container">
   <h1 class="post-heading"><%= @post.title %></h1>
 
   <div class="introduction">
@@ -17,12 +23,9 @@
     <b>Tags:</b> <%= @post.tags %>
   </div>
 
-<p>
-  <b>User:</b>
-  <%= @post.user.firstname + ' ' + @post.user.lastname %>
-</p>
-
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
 </div>
+
+<div class="small-12 large-4 columns"></div>

@@ -1,5 +1,5 @@
 3.2.5 (Media Mark)
-0bf8329f671d1391d1d3de694b1063ca8988654e
+b97a68c4b65cb55866ba2b38df86d7bd4a6774c5
 o:Sass::Tree::RootNode
 :
 @linei:@template"?($main_text_color: #595959;
@@ -275,8 +275,8 @@ label {
 /* ======= Authenable =========== */
 #header-wrapper {
 	position: relative;
-	min-height: 51px;
-	padding: 17px 0 6px 0;
+	min-height: 75px;
+	padding: 75px 0 6px 0;
 	color: #1c1c1c;
 	font: normal 1em "Gill Sans MT","Gill Sans",Arial,Helmet,Freesans,sans-serif;
 	background-position: 0 -42px;
@@ -790,8 +790,8 @@ o;;@¾;i;[ ;	@;"0;i o;;@¾;i;[ ;	@;"0;i o;5
 ;@Ò;i;"o;#;${ ;[o;8;@Ò;["header-wrapper;i;'0;i;T;	@;(i ;
 [o;);["position;i;	@;(i ;
 [ ;*;+;o;.;/;0;	@;"relativeo;);["min-height;i;	@;(i ;
-[ ;*;+;o;.;/;0;	@;"	51pxo;);["padding;i;	@;(i ;
-[ ;*;+;o;1	;i;	@;2;9;[	o;;[ ;i;["px;	@;"	17px;io;;@¾;i;[ ;	@;"0;i o;;[ ;i;["px;	@;"6px;io;;@¾;i;[ ;	@;"0;i o;);["
+[ ;*;+;o;.;/;0;	@;"	75pxo;);["padding;i;	@;(i ;
+[ ;*;+;o;1	;i;	@;2;9;[	o;;[ ;i;["px;	@;"	75px;iPo;;@¾;i;[ ;	@;"0;i o;;[ ;i;["px;	@;"6px;io;;@¾;i;[ ;	@;"0;i o;);["
 color;i;	@;(i ;
 [ ;*;+;o;.;/;0;	@;"#1c1c1co;);["	font;i;	@;(i ;
 [ ;*;+;o;1	;i;	@;2;3;[o;1	;i;	@;2;9;[o;.	;/;0;i;	@;"normalo;;[ ;i;["em;	@;"1em;io;.	;/;4;i;	@;"Gill Sans MTo;.	;/;4;i;	@;"Gill Sanso;.	;/;0;i;	@;"
