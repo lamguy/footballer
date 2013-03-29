@@ -1,3 +1,4 @@
+# encoding: utf-8
 class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
@@ -53,6 +54,17 @@ class User < ActiveRecord::Base
         user.email = data["email"] if user.email.blank?
       end
     end
+  end
+
+  # new function to return whether a password has been set
+  def has_no_email?
+	self.email.blank?
+  end
+
+  def no_email_message
+  	'<div class="alert-box orange" data-alert="">' +
+    'Tài khoản của bạn chưa có hiệu lực, vui lòng ' + ActionController::Base.helpers.link_to('đăng ký email', Rails.application.routes.url_helpers.edit_user_registration_path) + ' vào tài khoản trước khi sử dụng các tính năng' +
+    '</div>'
   end
 
   protected

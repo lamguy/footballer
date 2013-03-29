@@ -2,10 +2,8 @@
 
 <h4 class="subheader">Trang cá nhân giúp bạn thay đổi thông tin cá nhân của mình trong hệ thống.</h4>
 
-
-
-<%- if devise_mapping.confirmable? && controller_name != 'confirmations' %>
-  <%= link_to "Didn't receive confirmation instructions?", new_confirmation_path(resource_name) %><br />
+<%- if current_user.has_no_email? %>
+  <%= current_user.no_email_message.html_safe %>
 <% end -%>
 
 <hr>
