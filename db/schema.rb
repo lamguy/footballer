@@ -11,7 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130329094444) do
+ActiveRecord::Schema.define(:version => 20130329112229) do
+
+  create_table "attachments", :force => true do |t|
+    t.integer  "redactor_asset_id"
+    t.integer  "post_id"
+    t.boolean  "thumbnail"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
+  add_index "attachments", ["post_id"], :name => "index_attachments_on_post_id"
+  add_index "attachments", ["redactor_asset_id"], :name => "index_attachments_on_redactor_asset_id"
 
   create_table "comments", :force => true do |t|
     t.text     "comment"
