@@ -1,7 +1,9 @@
 Footballer::Application.routes.draw do
   mount RedactorRails::Engine => '/redactor_rails'
 
-  resources :posts
+  resources :posts do
+    resources :comments
+  end
 
 
   get "home/index"
