@@ -37,7 +37,6 @@ class User < ActiveRecord::Base
 	    					 facebook_link:auth.extra.raw_info.link,
 	                         provider:auth.provider,
 	                         uid:auth.uid,
-	                         email:auth.info.email,
 	                         password:Devise.friendly_token[0,20]
 	                         )
 	    user.send_reset_password_instructions
