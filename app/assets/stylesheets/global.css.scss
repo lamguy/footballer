@@ -9,6 +9,12 @@ body p {
 	line-height: $main_text_line_height;
 }
 
+p, ol, ul, td {
+	font-family: "Helvetica Neue", Helvetica, Arial, serif;
+	font-size: 13px;
+	line-height: 18px;
+}
+
 /* ======= SVG Icons =========== */
 .fc-webicon.xlarge {
 	width: 75px;

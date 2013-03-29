@@ -1,29 +1,19 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Title:</b>
-  <%= @post.title %>
-</p>
+<div class="large-7 columns" id="post-container">
+  <h1 class="post-heading"><%= @post.title %></h1>
 
-<p>
-  <b>Summary:</b>
-  <%= @post.summary.html_safe %>
-</p>
+  <div class="introduction">
+    <%= @post.summary.html_safe %>
+  </div>
 
-<p>
-  <b>Content:</b>
+  <div class="content">
   <%= @post.content.html_safe %>
-</p>
+  </div>
 
-<p>
-  <b>Type:</b>
-  <%= @post.posttype %>
-</p>
-
-<p>
-  <b>Tags:</b>
-  <%= @post.tags %>
-</p>
+  <div class="tags-list">
+    <b>Tags:</b> <%= @post.tags %>
+  </div>
 
 <p>
   <b>User:</b>
@@ -33,3 +23,4 @@
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
+</div>

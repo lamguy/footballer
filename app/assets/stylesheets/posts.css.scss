@@ -1,3 +1,21 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#post-container {
+	margin-top: 40px;
+}
+
+#post-container h1.post-heading {
+	font-size: 31px;
+	line-height: 38px;
+}
+
+#post-container div.introduction p {
+	font-size: 18px;
+	line-height: 1.4;
+	color: #6f6f6f;
+	font-weight: 300;
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+}
