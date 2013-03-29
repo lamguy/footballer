@@ -31,8 +31,10 @@ class User < ActiveRecord::Base
   	  user = User.where(:provider => auth.provider, :uid => auth.uid).first
 
   	  unless user
-  	  	user = User.create(  firstname:auth.info.first_name,
-	    					 lastname:auth.info.last_name,
+  	  	fullname = auth.info.name.split(' ')
+  	  	firstname, lastname = fullname[0], fullname[1]
+  	  	user = User.create(  firstname:firstname,
+	    					 lastname:lastname,
 	    					 facebook_avatar:auth.info.image,
 	    					 facebook_link:auth.extra.raw_info.link,
 	                         provider:auth.provider,
