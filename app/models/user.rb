@@ -12,6 +12,8 @@ class User < ActiveRecord::Base
   attr_accessible :email, :facebook_avatar, :facebook_link, :provider, :uid, :firstname, :lastname, :phone, :address, :city, :password, :password_confirmation, :remember_me
   # attr_accessible :title, :body
 
+  has_many :posts
+
   def self.find_for_facebook_oauth(auth, signed_in_resource=nil)
 	  user = User.where(:provider => auth.provider, :uid => auth.uid).first
 	  unless user
