@@ -7,7 +7,9 @@ $(document).ready(
     params = csrf_param + "=" + encodeURIComponent(csrf_token);
   }
   $('.redactor').redactor(
-    { "imageUpload":"/redactor_rails/pictures?" + params,
+    { 
+      "autoresize": false,
+      "imageUpload":"/redactor_rails/pictures?" + params,
       "imageGetJson":"/redactor_rails/pictures",
       "fileUpload":"/redactor_rails/documents?" + params,
       "fileGetJson":"/redactor_rails/documents",

@@ -69,3 +69,11 @@ p.page-timestamp {
 	margin-top: 8px;
 	float: right;
 }
+
+form textarea.redactor#post_summary {
+	height: 120px;
+}
+
+form textarea.redactor#post_content {
+	height: 320px;
+}

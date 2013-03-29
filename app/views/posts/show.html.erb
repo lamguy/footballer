@@ -40,9 +40,14 @@
       <!-- end #comment-list -->
 
       <%= form_for([@post, @post.comments.build]) do |f| %>
-        <p class="field">
-          <%= current_user.firstname + ' ' + current_user.lastname %>
-        </p>
+        <% if user_signed_in? %>
+          <p class="field">
+            <%= current_user.firstname + ' ' + current_user.lastname %>
+          </p>
+        <% else %>
+          
+        <% end %>
+
         <p class="field">
           <%= f.label :comment, 'Comment' %>
           <%= f.text_area :comment %>
