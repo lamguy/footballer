@@ -74,6 +74,7 @@ GEM
       subexec (~> 0.2.1)
     multi_json (1.7.2)
     multipart-post (1.2.0)
+    nokogiri (1.5.9)
     oauth (0.4.7)
     oauth2 (0.8.1)
       faraday (~> 0.8)
@@ -126,6 +127,9 @@ GEM
       devise
       mime-types
       orm_adapter
+    sanitize (2.0.3)
+      nokogiri (>= 1.4.4, < 1.6)
+      nokogiri (>= 1.4.4, < 1.6)
     sass (3.2.7)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -167,6 +171,7 @@ DEPENDENCIES
   omniauth-twitter
   rails (= 3.2.11)
   redactor-rails
+  sanitize
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)

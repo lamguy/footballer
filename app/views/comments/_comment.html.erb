@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="comment-votes small-2 columns"></div>
 		<div class="comment-body small-10 columns">
-			<%= comment.comment.html_safe %>
+			<%= simple_format(comment.comment).html_safe %>
 		</div>
 	</div>
 	<div class="comment-footer row">
