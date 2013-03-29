@@ -17,11 +17,11 @@
   </p>
   <p class="field">
     <%= f.label :summary %>
-    <%= f.text_area :summary %>
+    <%= text_area_tag :summary, '', :class => 'redactor', :rows => 10 %>
   </p>
   <p class="field">
     <%= f.label :content %>
-    <%= f.text_area :content %>
+    <%= text_area_tag :content, '', :class => 'redactor', :rows => 30 %>
   </p>
   <p class="field">
     <%= f.label :type %>

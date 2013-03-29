@@ -17,12 +17,16 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
+  gem 'redactor-rails'
+
   gem 'uglifier', '>= 1.0.3'
   gem 'zurb-foundation', '~> 4.0.4'
   gem 'foundation-icons-rails'
 end
 
 gem 'jquery-rails'
+gem "carrierwave"
+gem "mini_magick"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
