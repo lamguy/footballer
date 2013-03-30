@@ -21,12 +21,22 @@ ActiveAdmin.register Post do
   end
 
   # New/Edit forms  
-  form do |f|
-	f.inputs :title
-	f.inputs :summary
-	f.inputs :content
-	f.inputs :posttype
-	f.inputs :tags
+  form( :html => { :multipart => true } ) do |f|
+	f.inputs '' do
+		f.input :title
+		f.input :summary
+		f.input :content
+		f.input :posttype
+		f.input :tags
+		f.input :header_image
+  	end
   	f.buttons
   end
+
+  controller do
+	  def update
+	    update!
+	  end 
+  end 
+
 end
