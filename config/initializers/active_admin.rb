@@ -7,6 +7,9 @@ ActiveAdmin.setup do |config|
   #
   config.site_title = "FootballerVN"
 
+  config.register_stylesheet 'redactor-rails.css'
+  config.register_javascript 'redactor-rails.js'
+
   # Turn off authentication all together
   config.authentication_method = false
   config.current_user_method   = false

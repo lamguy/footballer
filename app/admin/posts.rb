@@ -24,8 +24,8 @@ ActiveAdmin.register Post do
   form( :html => { :multipart => true } ) do |f|
 	f.inputs '' do
 		f.input :title
-		f.input :summary
-		f.input :content
+		f.input :summary, input_html: { class: "redactor" }
+		f.input :content, input_html: { class: "redactor" }
 		f.input :posttype
 		f.input :tags
 		f.input :header_image
