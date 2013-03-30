@@ -23,7 +23,7 @@ group :assets do
   gem 'zurb-foundation', '~> 4.0.4'
   gem 'foundation-icons-rails'
 end
-
+gem 'country-select'
 gem 'jquery-rails'
 gem "carrierwave"
 gem "mini_magick"
@@ -43,7 +43,7 @@ gem 'sanitize'
 
 # To use debugger
 # gem 'debugger'
-
+gem 'activeadmin'
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
