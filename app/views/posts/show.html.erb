@@ -11,6 +11,7 @@
     </p>
 
   <div class="small-8 large-6 columns" id="post-container">
+    <%= image_tag(@post.bigimage, :class => 'post-header-image full-width') %>
     <h1 class="post-heading"><%= @post.title %></h1>
 
     <div class="introduction">
