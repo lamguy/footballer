@@ -23,6 +23,7 @@ group :assets do
   gem 'zurb-foundation', '~> 4.0.4'
   gem 'foundation-icons-rails'
 end
+gem 'fb_graph'
 gem 'country-select'
 gem 'jquery-rails'
 gem "carrierwave"

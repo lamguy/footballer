@@ -9,7 +9,10 @@ class User < ActiveRecord::Base
          :omniauthable, :omniauth_providers => [:facebook, :twitter]
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :facebook_avatar, :facebook_link, :provider, :uid, :firstname, :lastname, :phone, :address, :city, :password, :password_confirmation, :remember_me
+  attr_accessible :email, :facebook_avatar, :facebook_link, :provider, :uid, 
+                  :firstname, :lastname, :phone, :address, :city, 
+                  :password, :password_confirmation, :remember_me
+                  :profile_photo
   # attr_accessible :title, :body
 
   has_many :posts
@@ -61,7 +64,7 @@ class User < ActiveRecord::Base
 
   # new function to return whether a password has been set
   def has_no_email?
-	self.email.blank?
+	 self.email.blank?
   end
 
   def no_email_message
@@ -70,11 +73,15 @@ class User < ActiveRecord::Base
     '</div>'
   end
 
+  def profile_photo(type='square')
+    "http://graph.facebook.com/#{self.uid}/picture?type=#{type}"
+  end
+
   protected
 
   #skip required confirmation for users if you want they still can login
   def confirmation_required?
-	false
+	 false
   end
 
 

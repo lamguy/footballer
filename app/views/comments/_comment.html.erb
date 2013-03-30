@@ -17,7 +17,7 @@
 			<a href="">Trả lời</a>
 		</div>
 		<div class="comment-author small-6 columns">
-			<%= link_to image_tag(comment.user.facebook_avatar, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path %>
+			<%= link_to image_tag(comment.user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path %>
 			<span class="author-name-meta">
 				Bởi <strong><%= comment.user.firstname + ' ' + comment.user.lastname %></strong> - 2h trước <br>
 				<a href="" class="button xsmall green">Theo</a>

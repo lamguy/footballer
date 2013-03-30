@@ -7,6 +7,9 @@
 	position: relative;
 	z-index: 400;
 	background: #FFFFFF;
+	-moz-border-radius: 3px; /* from vector shape */
+	-webkit-border-radius: 3px; /* from vector shape */
+	border-radius: 3px; /* from vector shape */
 }
 
 #post-container .full-width {
@@ -19,6 +22,9 @@
 #post-container img.post-header-image {
 	top: 15px;
 	margin-bottom: 36px;
+	-moz-border-radius: 3px; /* from vector shape */
+	-webkit-border-radius: 3px; /* from vector shape */
+	border-radius: 3px; /* from vector shape */
 }
 
 #post-container h1.post-heading {
@@ -35,9 +41,38 @@
 	margin-bottom: 0.5em;
 }
 
-p.page-timestamp {
+div.page-timestamp {
+	font-size: 12px;
+	line-height: 18px;
 	padding: 0;
-	margin-top: 50px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+div.page-timestamp a {
+	display: block;
+}
+
+div.page-timestamp a.button {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+div.page-timestamp strong {
+	font-weight: bold;
+	height: auto;
+}
+
+div.page-timestamp span.date {
+	color: #888888;
+}
+
+div.page-timestamp img.author-avatar {
+	margin: 0 auto 5px;
+	-moz-border-radius: 3px; /* from vector shape */
+	-webkit-border-radius: 3px; /* from vector shape */
+	border-radius: 3px; /* from vector shape */
 }
 
 form textarea.redactor#post_summary {
