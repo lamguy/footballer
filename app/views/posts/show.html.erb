@@ -2,16 +2,16 @@
 
 <div id="main-container-inner" class="row">
 
-  <div class="page-timestamp small-6 large-2 offset-1 columns">
-    <%= link_to image_tag(@post.user.profile_photo('large'), :alt => 'Awesome profile', :size => '80x80', :class => 'author-avatar'), edit_user_registration_path %>
+  <div class="page-timestamp small-2 large-2 offset-1 columns">
+    <%= link_to image_tag(@post.user.profile_photo('large'), :alt => 'Awesome profile', :size => '50x50', :class => 'author-avatar left'), edit_user_registration_path %>
     <strong class="post-author"><%= @post.user.firstname + ' ' + @post.user.lastname %></strong>
     <br>
-    <span class="date">Last updated at <%= @post.created_at.strftime("%d/%m/%Y") %></span> 
+    <span class="date"><%= @post.created_at.strftime("%d/%m/%Y") %></span> 
     <br>
     <a href="" class="button xsmall green">Theo</a>
   </div>
 
-  <div class="small-8 large-6 columns" id="post-container">
+  <div class="small-6 large-6 columns" id="post-container">
     <%= image_tag(@post.bigimage, :class => 'post-header-image full-width') %>
     <h1 class="post-heading"><%= @post.title %></h1>
 
