@@ -41,34 +41,60 @@
 	margin-bottom: 0.5em;
 }
 
-div.page-timestamp {
-	font-size: 12px;
-	line-height: 18px;
+.profile-header-inner-overlay {
+	position: absolute;
+	width: 470px;
+	height: 200px;
+	top: 79px;
+	background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.55) 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0.55)));
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.55) 100%);
+	background: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.55) 100%);
+	background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.55) 100%);
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.55) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#66000000',GradientType=0);
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+div.post-leftcontent {
+
+}
+
+div.post-leftcontent {
 	padding: 0;
 	margin-top: 10px;
 	text-align: left;
 }
 
-div.page-timestamp a {
-	display: block;
+div.post-leftcontent a {
 }
 
-div.page-timestamp a.button {
+div.post-leftcontent a.button {
 	display: inline-block;
 	text-transform: uppercase;
 	margin-top: 0px;
+	text-shadow: none;
 }
 
-div.page-timestamp strong {
+div.post-leftcontent strong.date {
+	color: #555555;
 	font-weight: bold;
 	height: auto;
+	font-size: 13px;
+	line-height: 18px;
 }
 
-div.page-timestamp span.date {
-	color: #888888;
+div.post-leftcontent span.post-author {
+	font-size: 13px;
+	line-height: 18px;
 }
 
-div.page-timestamp img.author-avatar {
+div.post-leftcontent img.author-avatar {
 	margin: 0 auto 5px;
 	-moz-border-radius: 3px; /* from vector shape */
 	-webkit-border-radius: 3px; /* from vector shape */
