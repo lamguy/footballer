@@ -54,7 +54,7 @@
       <%= form_for([@post, @post.comments.build]) do |f| %>
         <% if user_signed_in? %>
           <p class="field">
-            <%= current_user.firstname + ' ' + current_user.lastname %>
+            <%= current_user.name %>
           </p>
         <% else %>
           
