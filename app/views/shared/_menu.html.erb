@@ -1,6 +1,6 @@
 <div class="main-navigation">
 	<div class="row">
-		<div class="large-12 columns">
+		<div class="large-8 columns">
 	      <ul class="button-group">
 	        <li><%= link_to 'Trang chủ', home_index_path, :class => 'button' %></li>
 	        <li><%= link_to 'Cộng đồng', home_index_path, :class => 'button' %></li>
@@ -8,6 +8,12 @@
 	        <li><%= link_to 'Cầu thủ', home_index_path, :class => 'button' %></li>
 	        <li><%= link_to 'Tin sân cỏ <span class="label radius alert">HOT</span>'.html_safe, home_index_path, :class => 'button' %></li>
 	      </ul>
+	    </div>
+	    <div class="large-4 columns">
+	    	<form action="">
+	    		<input type="text" name="s" id="s_field">
+	    		<input type="submit" id="search" class="glyph general" value="=">
+	    	</form>
 	    </div>
     </div>
 </div>

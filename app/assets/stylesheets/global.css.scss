@@ -167,6 +167,60 @@ p, ol, ul, td {
 	left: 5px;
 }
 
+.main-navigation form {
+	margin-top: 20px;
+	position: relative;
+}
+
+form #s_field {
+	-moz-border-radius: 3px; /* from vector shape */
+	-webkit-border-radius: 3px; /* from vector shape */
+	border-radius: 3px; /* from vector shape */
+	z-index: 500;
+}
+
+form #s_field:after {
+	position: relative;
+	top: 0;
+	right: 0;
+	background: #141414;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	width: 32px;
+	height: 35px;
+	display: block;
+	border: none;
+}
+
+form #search {
+	position: absolute;
+	top: 0;
+	right: 0;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: none; /* layer fill content */
+	width: 32px;
+	height: 36px;
+	display: block;
+	border: none;
+	-moz-transform: scaleX(-1); /* Gecko */
+    -o-transform: scaleX(-1); /* Operah */
+    -webkit-transform: scaleX(-1); /* webkit */
+    transform: scaleX(-1); /* standard */
+    filter: FlipH; /* IE 6/7/8 */
+    font-size: 18px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
 /* ======= Form =========== */
 label {
 	font-size: $main_text_size;
