@@ -93,6 +93,10 @@ class User < ActiveRecord::Base
     "http://graph.facebook.com/#{self.uid}/picture?type=#{type}"
   end
 
+  def name
+    self.firstname.to_s + ' ' self.lastname.to_s
+  end
+
   protected
 
   #skip required confirmation for users if you want they still can login
