@@ -25,6 +25,10 @@
 	background: #FFFFFF;
 }
 
+.comment-item .comment-body {
+	padding-left: 0 !important;
+}
+
 .comment-item .comment-meta, .comment-item .comment-meta a {
 	font-size: 9px;
 	letter-spacing: 0.25;
@@ -59,7 +63,7 @@
 	float: right;
 }
 
-.comment-votes {
+.comment-item .voting {
 	margin-top: -5px;
 }
 
