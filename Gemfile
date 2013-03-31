@@ -44,6 +44,7 @@ gem 'sanitize'
 
 # To use debugger
 # gem 'debugger'
+gem 'activerecord-reputation-system'
 gem 'activeadmin'
 gem 'devise'
 gem 'omniauth'
