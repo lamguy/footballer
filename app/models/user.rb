@@ -94,7 +94,7 @@ class User < ActiveRecord::Base
   end
 
   def name
-    self.firstname.to_s + ' ' self.lastname.to_s
+    self.firstname.to_s + ' ' + self.lastname.to_s
   end
 
   protected
