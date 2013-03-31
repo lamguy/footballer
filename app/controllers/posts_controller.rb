@@ -80,4 +80,13 @@ class PostsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def vote
+    value =  params[:type] == 'up' ? 1 : -1
+    @post = Post.find(params[:id])
+    @post.add_or_update_evaluation(:avg_rating, value, current_user)
+
+    redirect_to :back, notice: 'Thank you for voting'
+  end
+
 end

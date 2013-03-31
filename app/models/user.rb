@@ -18,6 +18,22 @@ class User < ActiveRecord::Base
   has_many :posts
   has_many :comments
 
+  has_reputation :karma,
+                 :source => [
+                    { :reputation => :commenting_skill, :weight => 0.8 },
+                    { :reputation => :posting_skill }
+                 ]
+
+  has_reputation :commenting_skill,
+                 :source => [
+                    { :reputation => :votes, :of => :comments }
+                 ]
+
+  has_reputation :posting_skill,
+                 :source => [
+                    { :reputation => :avg_rating, :of => :posts }
+                 ]
+
   def self.find_for_facebook_oauth(auth, signed_in_resource=nil)
 	  user = User.where(:provider => auth.provider, :uid => auth.uid).first
 	  unless user

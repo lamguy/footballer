@@ -7,6 +7,13 @@
     <strong class="date"><%= @post.created_at.strftime("%d tháng %m, %Y") %></strong> 
     <br>
     <span class="post-author">Bài viết nhận định của <%= link_to @post.user.firstname + ' ' + @post.user.lastname, edit_user_registration_path %></span>
+
+    <div class="voting small-2 columns">
+          <input type="hidden" value="5219535">
+          <%= link_to 'up vote', vote_post_path(@post, :type => 'up'), :method => :post, :class => 'vote-up-off' %>
+          <span class="vote-count-post "><%= @post.reputation_for(:avg_rating).to_i %></span>
+          <%= link_to 'up vote', vote_post_path(@post, :type => 'down'), :method => :post, :class => 'vote-down-off' %>
+    </div>
   </div>
 
   <div class="small-6 large-6 columns" id="post-container">

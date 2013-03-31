@@ -306,3 +306,36 @@ label {
 	line-height: 1.2;
 	text-transform: uppercase;
 }
+
+
+/* ======= Voting System =========== */
+.vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off {
+	background-position: 0px -265px;
+	display: block;
+	margin: 0 auto;
+}
+
+.vote-up-off, .vote-down-off, .vote-accepted-off, .star-off, .comment-up-off, .flag-off {
+	cursor: pointer;
+}
+
+.vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .flag-off, .vote-accepted-off, .vote-accepted-on {
+	text-indent: -9999em;
+	font-size: 1px;
+}
+
+.vote-up-off, .vote-up-on {
+	display: block;
+	width: 0;
+	height: 0;
+	border: solid 10px;
+	border-color: transparent transparent rgba(0, 0, 0, 0.5) transparent;
+}
+
+.vote-down-off, .vote-down-on {
+	display: block;
+	width: 0;
+	height: 0;
+	border: solid 10px;
+	border-color: rgba(0, 0, 0, 0.5) transparent transparent transparent;
+}

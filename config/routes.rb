@@ -4,7 +4,10 @@ Footballer::Application.routes.draw do
   mount RedactorRails::Engine => '/redactor_rails'
 
   resources :posts do
-    resources :comments
+    resources :comments do
+      member { post :vote }
+    end
+    member { post :vote }
   end
 
 

@@ -1,0 +1,8 @@
+
+		<div class="voting small-2 columns">
+			    <input type="hidden" value="5219535">
+			    <%= link_to 'up vote', vote_post_path(@post, :type => 'up'), :method => :post, :class => 'vote-up-off' %>
+			    <a class="vote-up-off" title="This question shows research effort; it is useful and clear (click again to undo)">up vote</a>
+			    <span class="vote-count-post "><%= @post.reputation_value_for(:votes).to_i, 'vote' %></span>
+			    <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful (click again to undo)">down vote</a> 
+		</div>
