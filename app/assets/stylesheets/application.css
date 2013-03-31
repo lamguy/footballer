@@ -9,10 +9,11 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require foundation_and_overrides
+ *= require foundation
  *= require foundation-icons
  *= require fc-webicons
  *= require redactor-rails
  *= require global
  *= require_tree .
  */
+ *= require foundation_and_overrides

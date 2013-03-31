@@ -25,3 +25,5 @@ $(document).ready(function() {
 		$(this).parents('.has-dropdown').removeClass('hover');
 	});
 })
+
+$(document).foundation();
