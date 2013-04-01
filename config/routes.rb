@@ -1,4 +1,7 @@
 Footballer::Application.routes.draw do
+  resources :leagues
+
+
   resources :regions
 
 
