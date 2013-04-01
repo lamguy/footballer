@@ -130,6 +130,7 @@ p, ol, ul, td {
 	overflow: visible;
 	position: relative;
 	z-index: 200;
+	border-bottom: solid 1px #cdcdcd;
 }
 
 #main-navigation-wrapper .row {
@@ -341,6 +342,7 @@ label {
 
 /* ======= Authenable =========== */
 #header-wrapper {
+	display: none;
 	position: relative;
 	min-height: 75px;
 	padding: 75px 0 6px 0;
