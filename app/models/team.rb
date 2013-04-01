@@ -1,4 +1,4 @@
 class Team < ActiveRecord::Base
   belongs_to :division
-  attr_accessible :history, :logo, :name
+  attr_accessible :history, :logo, :name, :division_id
 end
