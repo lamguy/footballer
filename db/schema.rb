@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130401055735) do
+ActiveRecord::Schema.define(:version => 20130401233206) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -65,6 +65,21 @@ ActiveRecord::Schema.define(:version => 20130401055735) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "players", :force => true do |t|
+    t.string   "name"
+    t.datetime "born"
+    t.string   "nationality"
+    t.text     "bio"
+    t.string   "photo"
+    t.datetime "retired"
+    t.text     "history"
+    t.integer  "team_id",     :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "players", ["team_id"], :name => "index_players_on_team_id", :unique => true
 
   create_table "posts", :force => true do |t|
     t.string   "title"

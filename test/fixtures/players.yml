@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  born: 2013-04-01 18:32:06
+  nationality: MyString
+  bio: MyText
+  photo: MyString
+  retired: 2013-04-01 18:32:06
+  history: MyText
+  team: 
+
+two:
+  name: MyString
+  born: 2013-04-01 18:32:06
+  nationality: MyString
+  bio: MyText
+  photo: MyString
+  retired: 2013-04-01 18:32:06
+  history: MyText
+  team: 
