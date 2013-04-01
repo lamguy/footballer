@@ -223,7 +223,6 @@ DEPENDENCIES
   activerecord-reputation-system
   carrierwave
   coffee-rails (~> 3.2.1)
-  compass
   compass-rails
   country-select
   devise
