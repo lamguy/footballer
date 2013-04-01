@@ -17,6 +17,9 @@
 //= require_tree .
 
 //= require foundation
+//= require jquery_ujs
+//= require jquery-ui
+//= require autocomplete-rails
 $(document).foundation('dropdown topbar');
 $(document).ready(function() {
 	$('.has-dropdown *').mouseover(function() {

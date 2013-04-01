@@ -9,6 +9,7 @@ ActiveAdmin.setup do |config|
 
   config.register_stylesheet 'redactor-rails.css'
   config.register_javascript 'redactor-rails.js'
+  config.register_javascript 'autocomplete-rails'
 
   # Turn off authentication all together
   config.authentication_method = false
