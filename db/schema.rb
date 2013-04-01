@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130401053156) do
+ActiveRecord::Schema.define(:version => 20130401055735) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -49,6 +49,22 @@ ActiveRecord::Schema.define(:version => 20130401053156) do
 
   add_index "comments", ["post_id"], :name => "index_comments_on_post_id"
   add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
+
+  create_table "divisions", :force => true do |t|
+    t.string   "name"
+    t.integer  "league_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "divisions", ["league_id"], :name => "index_divisions_on_league_id"
+
+  create_table "leagues", :force => true do |t|
+    t.integer  "region_id"
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "posts", :force => true do |t|
     t.string   "title"
@@ -141,6 +157,39 @@ ActiveRecord::Schema.define(:version => 20130401053156) do
 
   add_index "sessions", ["session_id"], :name => "index_sessions_on_session_id"
   add_index "sessions", ["updated_at"], :name => "index_sessions_on_updated_at"
+
+  create_table "stadia", :force => true do |t|
+    t.string   "name"
+    t.text     "history"
+    t.string   "location"
+    t.integer  "league_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "stadia", ["league_id"], :name => "index_stadia_on_league_id"
+
+  create_table "stadiums", :force => true do |t|
+    t.string   "name"
+    t.text     "history"
+    t.string   "location"
+    t.integer  "league_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "stadiums", ["league_id"], :name => "index_stadiums_on_league_id"
+
+  create_table "teams", :force => true do |t|
+    t.string   "name"
+    t.string   "logo"
+    t.text     "history"
+    t.integer  "division_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "teams", ["division_id"], :name => "index_teams_on_division_id"
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
