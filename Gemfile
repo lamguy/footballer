@@ -12,6 +12,7 @@ gem 'sqlite3'
 # in production environments by default.
 group :assets do
   gem 'compass'
+  gem 'compass-rails'
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
 
@@ -21,9 +22,9 @@ group :assets do
   gem 'redactor-rails'
 
   gem 'uglifier', '>= 1.0.3'
+end
   gem 'zurb-foundation', '~> 4.0.4'
   gem 'foundation-icons-rails'
-end
 gem 'fb_graph'
 gem 'country-select'
 gem 'jquery-rails'
