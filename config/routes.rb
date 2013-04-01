@@ -1,4 +1,7 @@
 Footballer::Application.routes.draw do
+  resources :regions
+
+
   ActiveAdmin.routes(self)
 
   mount RedactorRails::Engine => '/redactor_rails'
