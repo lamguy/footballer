@@ -9,4 +9,19 @@ ActiveAdmin.register Commentary do
   	f.buttons
   end
 
+  controller do
+  	def create
+  		reg = /#(?<match>\d{1,10})/
+  		text = params[:commentary][:commentary_text]
+  		reg_match = text.match(reg)
+
+  		match_id = reg_match[:match]
+
+  		@match = Match.find(match_id)
+  		@match.update_attribute(:statistics, 'commentary called me')
+
+  		create!
+  	end
+  end
+
 end
