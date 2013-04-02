@@ -1,4 +1,5 @@
 class Player < ActiveRecord::Base
-  belongs_to :team
+  has_many :teams, :through => :playing_team
+
   attr_accessible :bio, :born, :history, :name, :nationality, :photo, :retired
 end

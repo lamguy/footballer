@@ -2,20 +2,18 @@
 
 one:
   name: MyString
-  born: 2013-04-01 18:32:06
+  born: 2013-04-01 19:04:13
   nationality: MyString
   bio: MyText
   photo: MyString
-  retired: 2013-04-01 18:32:06
+  retired: 2013-04-01 19:04:13
   history: MyText
-  team: 
 
 two:
   name: MyString
-  born: 2013-04-01 18:32:06
+  born: 2013-04-01 19:04:13
   nationality: MyString
   bio: MyText
   photo: MyString
-  retired: 2013-04-01 18:32:06
+  retired: 2013-04-01 19:04:13
   history: MyText
-  team: 

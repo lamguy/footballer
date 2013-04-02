@@ -1,4 +1,5 @@
 class Stadium < ActiveRecord::Base
   belongs_to :league
-  attr_accessible :history, :location, :name, :league_id
+  belongs_to :team
+  attr_accessible :history, :location, :name, :league_id, :team_id
 end

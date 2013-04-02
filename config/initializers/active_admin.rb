@@ -7,9 +7,8 @@ ActiveAdmin.setup do |config|
   #
   config.site_title = "FootballerVN"
 
+  config.register_stylesheet 'jquery.ui.all'
   config.register_stylesheet 'redactor-rails.css'
-  config.register_javascript 'redactor-rails.js'
-  config.register_javascript 'autocomplete-rails'
 
   # Turn off authentication all together
   config.authentication_method = false

@@ -8,6 +8,8 @@ ActiveSupport::Inflector.inflections do |inflect|
 #   inflect.irregular 'person', 'people'
 #   inflect.uncountable %w( fish sheep )
 	inflect.irregular 'stadium', 'stadiums'
+	inflect.irregular 'match', 'matches'
+	inflect.irregular 'commentary', 'commentaries'
 end
 #
 # These inflection rules are supported but not enabled by default:

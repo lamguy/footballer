@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130401233206) do
+ActiveRecord::Schema.define(:version => 20130402045537) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -38,6 +38,17 @@ ActiveRecord::Schema.define(:version => 20130401233206) do
 
   add_index "attachments", ["post_id"], :name => "index_attachments_on_post_id"
   add_index "attachments", ["redactor_asset_id"], :name => "index_attachments_on_redactor_asset_id"
+
+  create_table "commentaries", :force => true do |t|
+    t.integer  "match_id"
+    t.integer  "user_id"
+    t.text     "commentary_text"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  add_index "commentaries", ["match_id"], :name => "index_commentaries_on_match_id"
+  add_index "commentaries", ["user_id"], :name => "index_commentaries_on_user_id"
 
   create_table "comments", :force => true do |t|
     t.text     "comment"
@@ -66,6 +77,19 @@ ActiveRecord::Schema.define(:version => 20130401233206) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "matches", :force => true do |t|
+    t.integer  "team_home_id"
+    t.integer  "team_away_id"
+    t.integer  "team_home_goal"
+    t.integer  "team_away_goal"
+    t.text     "statistics"
+    t.integer  "stadium_id"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
+  add_index "matches", ["stadium_id"], :name => "index_matches_on_stadium_id"
+
   create_table "players", :force => true do |t|
     t.string   "name"
     t.datetime "born"
@@ -74,12 +98,19 @@ ActiveRecord::Schema.define(:version => 20130401233206) do
     t.string   "photo"
     t.datetime "retired"
     t.text     "history"
-    t.integer  "team_id",     :null => false
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
 
-  add_index "players", ["team_id"], :name => "index_players_on_team_id", :unique => true
+  create_table "playing_teams", :force => true do |t|
+    t.integer  "team_id"
+    t.integer  "player_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "playing_teams", ["player_id"], :name => "index_playing_teams_on_player_id"
+  add_index "playing_teams", ["team_id"], :name => "index_playing_teams_on_team_id"
 
   create_table "posts", :force => true do |t|
     t.string   "title"
@@ -191,9 +222,11 @@ ActiveRecord::Schema.define(:version => 20130401233206) do
     t.integer  "league_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "team_id"
   end
 
   add_index "stadiums", ["league_id"], :name => "index_stadiums_on_league_id"
+  add_index "stadiums", ["team_id"], :name => "index_stadiums_on_team_id"
 
   create_table "teams", :force => true do |t|
     t.string   "name"
