@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Helvetica Neue Condensed';
+    src: url('helveticaneueltcom-bdcn.eot');
+    src: url('helveticaneueltcom-bdcn.eot?iefix') format('eot'),
+         url('helveticaneueltcom-bdcn.woff') format('woff'),
+         url('helveticaneueltcom-bdcn.ttf') format('truetype'),
+         url('helveticaneueltcom-bdcn.svg#webfontOJIfwzl6') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
