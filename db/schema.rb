@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130402045537) do
+ActiveRecord::Schema.define(:version => 20130402085851) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -86,6 +86,8 @@ ActiveRecord::Schema.define(:version => 20130402045537) do
     t.integer  "stadium_id"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+    t.datetime "started_at"
+    t.datetime "ended_at"
   end
 
   add_index "matches", ["stadium_id"], :name => "index_matches_on_stadium_id"
