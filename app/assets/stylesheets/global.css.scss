@@ -1,17 +1,20 @@
 $main_text_color: #595959;
 $main_text_size: 14px;
-$main_text_line_height: 21px;
+$main_text_line_height: 1.5;
 
 $facebook_color: #4C66A4;
 
-body p {
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, serif;
 	font-size: $main_text_size;
 	line-height: $main_text_line_height;
 	text-rendering: auto;
 }
 
 p, ol, ul, td {
-	font-family: "Helvetica Neue", Helvetica, Arial, serif;
+	font-size: $main_text_size;
+	line-height: $main_text_line_height;
+	text-rendering: auto;
 }
 
 /* ======= SVG Icons =========== */
