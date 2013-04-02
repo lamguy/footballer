@@ -9,7 +9,7 @@
           <div class="team team-home small-6 large-6 columns">
             <div class="team-info">
               <img src="" alt="" class="team-logo">
-              <strong class="team-name">MAN CITY</strong>
+              <strong class="team-name"><%= @match.team_home.shortname %></strong>
             </div>
             <div class="opacity-bg"></div>
             <span class="team-score">2</span>
@@ -17,7 +17,7 @@
           <div class="team team-away small-6 large-6 columns">
             <div class="team-info">
               <img src="" alt="" class="team-logo">
-              <strong class="team-name">QPR</strong>
+              <strong class="team-name"><%= @match.team_away.shortname %></strong>
             </div>
             <div class="opacity-bg"></div>
             <span class="team-score">1</span>
