@@ -147,6 +147,7 @@
 	padding-bottom: 15px;
 	color: #444444;
 	font-size: 13px;
+	text-align:center;
 }
 
 #match-info .match-overal ul {
@@ -160,4 +161,18 @@
 
 #match-info .match-overal ul li strong {
 	color: #000000;
+}
+
+#match-info .match-overal .not_started {
+	font-family: Helvetica, sans-serif;
+	color: #444444;
+	font-size: 25px;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+}
+
+#match-info .match-overal .subscribe_match {
+	display: inline-table;
+	margin: 0 auto 15px;
 }

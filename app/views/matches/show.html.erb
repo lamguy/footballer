@@ -3,7 +3,7 @@
     <div id="match-info">
       <div class="match-header">
         <div class="match-timestamp">
-          <span>Chủ nhật 13/05/2012 | Etihad Stadium | Kick-off 09:00</span>
+          <span>Chủ nhật 13/05/2012 | <%= @match.stadium.name %> | Kick-off 09:00</span>
         </div>
         <div class="match-competitors row">
           <div class="team team-home small-6 large-6 columns">
@@ -12,7 +12,7 @@
               <strong class="team-name"><%= @match.team_home.shortname %></strong>
             </div>
             <div class="opacity-bg"></div>
-            <span class="team-score">2</span>
+            <span class="team-score"><%= @match.home_score %></span>
           </div>
           <div class="team team-away small-6 large-6 columns">
             <div class="team-info">
@@ -20,11 +20,13 @@
               <strong class="team-name"><%= @match.team_away.shortname %></strong>
             </div>
             <div class="opacity-bg"></div>
-            <span class="team-score">1</span>
+            <span class="team-score"><%= @match.away_score %></span>
           </div>
         </div>
       </div>
       <div class="match-overal row">
+        <% if @match.match_started? %>
+
         <div class="team team-home small-6 large-6 columns">
           <ul class="goal-list">
             <li><strong>Falcao</strong> 7'</li>
@@ -35,6 +37,11 @@
         <div class="team team-away small-6 large-6 columns">
 
         </div>
+          
+        <% else %>
+          <span class="not_started">Trận đấu chưa bắt đầu!</span>
+          <%= link_to 'Theo dõi', match_path, :class => 'subscribe_match button large' %>
+        <% end %>
       </div>
     </div>
   </div>
