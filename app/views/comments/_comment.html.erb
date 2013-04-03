@@ -13,14 +13,16 @@
 	</div>
 	<div class="comment-footer row">
 		<div class="comment-meta small-6 columns">
-			<a href="">Sửa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-			<a href="">Báo cáo vi phạm</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-			<a href="">Trả lời</a>
+			<p>
+				<a href="">Sửa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="">Báo cáo vi phạm</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="">Trả lời</a>
+			</p>
 		</div>
 		<div class="comment-author small-6 columns">
-			<%= link_to image_tag(comment.user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path %>
+			<%= link_to image_tag(comment.user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
 			<span class="author-name-meta">
-				Bởi <strong><%= comment.user.firstname + ' ' + comment.user.lastname %></strong> - 2h trước <br>
+				<strong><%= comment.user.firstname + ' ' + comment.user.lastname %></strong> - 2h trước <br>
 				<a href="" class="button xsmall green">Theo</a>
 			</span>
 		</div>

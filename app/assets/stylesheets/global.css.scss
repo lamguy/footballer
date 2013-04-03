@@ -144,6 +144,7 @@ p, ol, ul, td {
 	font-family: 'Helvetica Neue Condensed', Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 60px;
+	font-weight: normal;
 	background-clip: padding-box;
     background: none;
     border: none;
@@ -153,7 +154,6 @@ p, ol, ul, td {
     color: #535353; /* text color */
 	text-shadow: 0 1px 1px rgba(255,255,255,.75); /* drop shadow */
 	text-transform: uppercase;
-	letter-spacing: -1px;
 }
 
 .main-navigation ul li a:hover {
