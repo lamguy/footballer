@@ -1,5 +1,9 @@
 Footballer::Application.routes.draw do
-  resources :matches
+  resources :matches, :shallow => true do
+    resources :comments do
+      member { post :vote }
+    end
+  end
 
 
   resources :players

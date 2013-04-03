@@ -44,6 +44,33 @@
         <% end %>
       </div>
     </div>
+    <div id="comment-container">
+      <h2>Bạn nghĩ gì về bài nhận định này?</h2>
+      
+      <!-- begin #comment-list -->
+      <div id="comment-list">
+        <%= render @match.comments %>
+      </div>
+      <!-- end #comment-list -->
+
+      <%= form_for([@match, @match.comments.build]) do |f| %>
+        <% if user_signed_in? %>
+          <p class="field">
+            <%= current_user.name %>
+          </p>
+        <% else %>
+          
+        <% end %>
+
+        <p class="field">
+          <%= f.label :comment, 'Comment' %>
+          <%= f.text_area :comment %>
+        </p>
+        <p class="actions">
+          <%= f.submit 'Gởi bình luận', :class => 'button' %>
+        </p>
+      <% end %>
+    </div>
   </div>
 </div>
 

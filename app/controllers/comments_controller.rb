@@ -8,9 +8,15 @@ class CommentsController < ApplicationController
 	end
 
 	def create
-		@post = Post.find(params[:post_id])
+		if params[:post_id] 
+			@resource = Post.find(params[:post_id])
+			resource_path = post_path(@resource)
+		else
+			@resource = Match.find(params[:match_id])
+			resource_path = match_path(@resource)
+		end
 		sanitized_comment = Sanitize.clean(params[:comment][:comment], Sanitize::Config::BASIC)
-		@comment = @post.comments.create(:comment => sanitized_comment,  :user => current_user)
-		redirect_to post_path(@post)
+		@comment = @resource.comments.create(:comment => sanitized_comment,  :user => current_user)
+		redirect_to resource_path
 	end
 end

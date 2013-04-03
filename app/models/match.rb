@@ -10,6 +10,7 @@ class Match < ActiveRecord::Base
   			 :class_name => 'Team'
 
   has_many :commentaries
+  has_many :comments
 
   attr_accessible :statistics, :team_away_goal, :home_score, :away_score, 
   				  :team_away_id, :team_home_goal, :team_home_id, :stadium_id
