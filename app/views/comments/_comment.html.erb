@@ -12,10 +12,12 @@
 		</div>
 	</div>
 	<div class="comment-footer row">
-		<div class="comment-meta small-6 columns">
+		<div class="comment-meta small-4 large-offset-2 columns">
 			<p>
+				<% if comment.user == current_user %>
 				<a href="">Sửa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-				<a href="">Báo cáo vi phạm</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<% end %>
+				<a href="">Báo cáo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 				<a href="">Trả lời</a>
 			</p>
 		</div>
