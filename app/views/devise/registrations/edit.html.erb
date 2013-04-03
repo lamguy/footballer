@@ -50,8 +50,12 @@
     <p><%= f.label :password_confirmation, 'Xác nhận mật khẩu mới' %>
     <%= f.password_field :password_confirmation %></p>
 
+    <% unless resource.has_no_email? %>
+
     <p><%= f.label :current_password, 'Mật khẩu hiện tại' %>
     <%= f.password_field :current_password, :placeholder => 'Bạn cần nhập mật khẩu hiện tại nếu muốn thay đổi bất kì thông tin nào' %></p>
+      
+    <% end %>
 
     <p><%= f.submit "Update", :class => 'button' %></p>
   <% end %>
