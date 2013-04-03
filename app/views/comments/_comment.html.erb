@@ -1,32 +1,30 @@
 <div class="comment-item <%= cycle("even", "odd") %>">
 	<div class="row">
+		<div class="comment-body small-12 large-12 column">
 
-	    <div class="voting small-2 columns">
-	          <input type="hidden" value="5219535">
-	          <%= link_to 'up vote', vote_comment_path(comment, :type => 'up'), :method => :post, :class => 'vote-up-off' %>
-	          <span class="vote-count-post "><%= comment.reputation_for(:votes).to_i %></span>
-	          <%= link_to 'up vote', vote_comment_path(comment, :type => 'down'), :method => :post, :class => 'vote-down-off' %>
-	    </div>
-		<div class="comment-body small-10 columns">
+			<%= link_to image_tag(comment.user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
+			<a href="" class="button follow xsmall green">Theo</a>
+
+			<span class="author-name-meta">
+				<strong><%= comment.user.firstname + ' ' + comment.user.lastname %></strong> - 2h trước <br>
+				
+			</span>
 			<%= simple_format(comment.comment).html_safe %>
 		</div>
 	</div>
-	<div class="comment-footer row">
-		<div class="comment-meta small-4 large-offset-2 columns">
+	<div class="comment-footer">
+		<div class="comment-meta">
 			<p>
 				<% if comment.user == current_user %>
 				<a href="">Sửa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 				<% end %>
 				<a href="">Báo cáo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-				<a href="">Trả lời</a>
+				<a href="">Trả lời</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+		          <%= link_to 'B', vote_comment_path(comment, :type => 'down'), :method => :post, :class => 'glyph social voting vote-down-off' %>
+		          <span class="vote-count-post "><%= comment.reputation_for(:votes).to_i %></span>
+		          <%= link_to 'A', vote_comment_path(comment, :type => 'up'), :method => :post, :class => 'glyph social voting  vote-up-off' %>
 			</p>
-		</div>
-		<div class="comment-author small-6 columns">
-			<%= link_to image_tag(comment.user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
-			<span class="author-name-meta">
-				<strong><%= comment.user.firstname + ' ' + comment.user.lastname %></strong> - 2h trước <br>
-				<a href="" class="button xsmall green">Theo</a>
-			</span>
 		</div>
 	</div>
 </div>

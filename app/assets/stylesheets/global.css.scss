@@ -446,35 +446,32 @@ input.button-2:hover {
 
 
 /* ======= Voting System =========== */
-.vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off {
-	background-position: 0px -265px;
-	display: block;
-	margin: 0 auto;
+.voting, .voting:visited {
+	font-size: 14px !important;
+	color: #8f8f8f;
 }
 
-.vote-up-off, .vote-down-off, .vote-accepted-off, .star-off, .comment-up-off, .flag-off {
+.voting:hover {
+	text-decoration: none;
+}
+
+.vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on {
+	display: inline-block;
+}
+
+.vote-up-off, .vote-down-off, .vote-accepted-off {
 	cursor: pointer;
 }
 
-.vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .flag-off, .vote-accepted-off, .vote-accepted-on {
-	text-indent: -9999em;
-	font-size: 1px;
+.vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on {
 }
 
 .vote-up-off, .vote-up-on {
-	display: block;
-	width: 0;
-	height: 0;
-	border: solid 10px;
-	border-color: transparent transparent rgba(0, 0, 0, 0.5) transparent;
+	display: inline-block;
 }
 
 .vote-down-off, .vote-down-on {
-	display: block;
-	width: 0;
-	height: 0;
-	border: solid 10px;
-	border-color: rgba(0, 0, 0, 0.5) transparent transparent transparent;
+	display: inline-block;
 }
 
 /* ======= Sidebar =========== */

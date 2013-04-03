@@ -39,11 +39,11 @@
 }
 
 .comment-item .comment-body {
-	padding-left: 0 !important;
+	padding-left: 75px !important;
 }
 
 .comment-item .comment-meta {
-	padding-left: 0;
+	padding-left: 60px !important;
 }
 
 .comment-item .comment-meta p, .comment-item .comment-meta a {
@@ -55,39 +55,44 @@
 }
 
 .comment-item img.comment-author-avatar, form .comment-textarea img.comment-author-avatar {
-	float: right;
+	float: left;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 }
 
 .comment-item a.avatar-block, form .comment-textarea a.avatar-block {
-	float: right;
+	float: left;
+	margin-left: -55px;
 }
 
 .comment-item .author-name-meta {
-	font-size: 9px;
-	letter-spacing: 0.25;
-	line-height: 100%;
+	font-size: 14px;
+	line-height: 1.5;
 	color: #8f8f8f;
-	text-transform: uppercase;
-	float: right;
-	margin-right: 10px;
+	top: -5px;
+	position: relative;
 }
 
 .comment-item .author-name-meta strong {
 	color: #000000;
 }
 
-.comment-item .author-name-meta .button {
-	margin-top: 8px;
-	float: right;
+.comment-item .button.follow {
+	width: 40px;
+	height: 18px;
+	display: block;
+	top: 45px;
+	left: 20px;
+	position: absolute;
 	font-family: 'Helvetica Neue Condensed', Helvetica, sans-serif;
 	font-weight: normal;
+	text-transform: uppercase;
+	padding-left: 8px;
+	padding-top: 5px;
 }
 
 .comment-item .voting {
-	margin-top: -5px;
 }
 
 .question-page .vote-count-post, .review-task-page .vote-count-post {
@@ -96,16 +101,9 @@
 }
 
 .vote span {
-	display: block;
-	color: #808185;
-	font-weight: normal;
 }
 
 .vote-count-post {
-	display: block;
-	font-size: 18px;
-	line-height: 24px;
-	text-align: center;
 }
 
 form .comment-textarea {
