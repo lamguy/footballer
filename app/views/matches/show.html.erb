@@ -45,7 +45,7 @@
       </div>
     </div>
     <div id="comment-container">
-      <h2>Bạn nghĩ gì về bài nhận định này?</h2>
+      <h2>Bạn nghĩ gì về trận đấu này?</h2>
       
       <!-- begin #comment-list -->
       <div id="comment-list">
@@ -54,16 +54,10 @@
       <!-- end #comment-list -->
 
       <%= form_for([@match, @match.comments.build]) do |f| %>
-        <% if user_signed_in? %>
-          <p class="field">
-            <%= current_user.name %>
-          </p>
-        <% else %>
-          
-        <% end %>
 
-        <p class="field">
-          <%= f.label :comment, 'Comment' %>
+        <p class="field comment-textarea">
+          <%= f.label :comment, 'Ý kiến cá nhân của bạn?' %>
+          <%= link_to image_tag(current_user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
           <%= f.text_area :comment %>
         </p>
         <p class="actions">
