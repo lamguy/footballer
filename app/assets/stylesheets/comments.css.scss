@@ -54,14 +54,14 @@
 	text-transform: uppercase;
 }
 
-.comment-item img.comment-author-avatar {
+.comment-item img.comment-author-avatar, form .comment-textarea img.comment-author-avatar {
 	float: right;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 }
 
-.comment-item a.avatar-block {
+.comment-item a.avatar-block, form .comment-textarea a.avatar-block {
 	float: right;
 }
 
@@ -106,4 +106,19 @@
 	font-size: 18px;
 	line-height: 24px;
 	text-align: center;
+}
+
+form .comment-textarea {
+	padding-right: 60px;
+	margin-top: 30px;
+	position: relative;
+}
+
+form .comment-textarea textarea {
+	height: 70px;
+}
+
+form .comment-textarea img.comment-author-avatar {
+	position: absolute;
+	right: 10px;
 }

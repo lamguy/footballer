@@ -1,4 +1,4 @@
-$main_text_color: #595959;
+$main_text_color: #333333;;
 $main_text_size: 16px;
 $main_text_line_height: 1.6;
 
@@ -9,12 +9,14 @@ body {
 	font-size: $main_text_size;
 	line-height: $main_text_line_height;
 	text-rendering: auto;
+	color: $main_text_color;
 }
 
 p, ol, ul, td {
 	font-size: $main_text_size;
 	line-height: $main_text_line_height;
 	text-rendering: auto;
+	color: $main_text_color;
 }
 
 /* ======= SVG Icons =========== */

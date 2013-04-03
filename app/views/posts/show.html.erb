@@ -52,16 +52,10 @@
       <!-- end #comment-list -->
 
       <%= form_for([@post, @post.comments.build]) do |f| %>
-        <% if user_signed_in? %>
-          <p class="field">
-            <%= current_user.name %>
-          </p>
-        <% else %>
-          
-        <% end %>
 
-        <p class="field">
-          <%= f.label :comment, 'Comment' %>
+        <p class="field comment-textarea">
+          <%= f.label :comment, 'Ý kiến cá nhân của bạn?' %>
+          <%= link_to image_tag(current_user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
           <%= f.text_area :comment %>
         </p>
         <p class="actions">
