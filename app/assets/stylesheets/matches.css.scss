@@ -178,7 +178,7 @@
 }
 
 #match-tasks ul.tasks-tabs {
-	border-bottom: solid 1px #e2e2e2; /* outer stroke */
+	border-bottom: solid 1px #d7d7d7; /* outer stroke */
 	background-color: #fff; /* layer fill content */
 	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMDAiIHN0b3Atb3BhY2l0eT0iMC4wNyIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMC4wNyIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient fill */
 	background-image: linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%); /* gradient fill */
@@ -186,6 +186,9 @@
 	background-image: -o-linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%); /* gradient fill */
 	background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%); /* gradient fill */
 	margin-bottom: 0;
+	-moz-box-shadow: inset 2px 0 0 -1px #e0e2e9, inset 0 1px #fff; /* drop shadow */
+	-webkit-box-shadow: inset 2px 0 0 -1px #e0e2e9, inset 0 1px #fff; /* drop shadow */
+	box-shadow: inset 2px 0 0 -1px #e0e2e9, inset 0 1px #fff; /* drop shadow */
 }
 
 #match-tasks ul.tasks-tabs li {
@@ -241,15 +244,20 @@
 	overflow: hidden;
 }
 
+#match-tasks #live-commentary .commentary-inner .jspPane {
+	width: 100% !important;
+}
+
 #commentaries {
 	margin-bottom: 0;
 }
 
 #commentaries li {
+	font-size: 14px;
 	list-style: none;
 	display: block;
 	overflow: hidden;
-	padding: 10px 0;
+	padding: 10px 14px 10px 0;
 	border-bottom: solid 1px #f8f8f8;
 }
 
@@ -279,4 +287,13 @@
 #commentaries li span.commentary-content {
 	display: block;
 	padding-left: 120px;
+}
+
+hr.end-commentary {
+	margin: 0;
+	background-color: #fff; /* layer fill content */
+	-moz-box-shadow: 0 -0px 7px rgba(0,0,0,.24); /* drop shadow */
+	-webkit-box-shadow: 0 -0px 7px rgba(0,0,0,.24); /* drop shadow */
+	box-shadow: 0 -0px 7px rgba(0,0,0,.24); /* drop shadow */
+	border-color: #efefef;
 }
