@@ -190,6 +190,11 @@ background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,25
 #match-tasks ul li {
 	float: left;
 	list-style: none;
+	border-left: solid 1px #eaeaea;
+}
+
+#match-tasks ul li:first-child, #match-tasks ul li:first-child a {
+	border-left: none;
 }
 
 #match-tasks ul li a {
@@ -200,6 +205,7 @@ background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,25
 	text-transform: uppercase;
 	padding: 0 20px;
 	text-decoration: none;
+	border-left: solid 1px #fdfdfd;
 }
 
 #match-tasks .label {
