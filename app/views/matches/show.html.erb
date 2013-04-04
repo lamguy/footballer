@@ -56,9 +56,8 @@
       <%= form_for([@match, @match.comments.build]) do |f| %>
 
         <p class="field comment-textarea">
-          <%= f.label :comment, 'Ý kiến cá nhân của bạn?' %>
           <%= link_to image_tag(current_user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
-          <%= f.text_area :comment %>
+          <%= f.text_area :comment, :placeholder => 'Ý kiến cá nhân của bạn?' %>
         </p>
         <p class="actions">
           <%= f.submit 'Gởi bình luận', :class => 'button' %>

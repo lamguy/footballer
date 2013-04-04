@@ -53,6 +53,7 @@ GEM
     carrierwave (0.8.0)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
+    chunky_png (1.2.8)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -60,6 +61,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-rails (1.0.3)
+      compass (>= 0.12.2, < 0.14)
     country-select (1.1.1)
     devise (2.2.3)
       bcrypt-ruby (~> 3.0)
@@ -82,6 +89,7 @@ GEM
     foundation-icons-rails (0.0.1.2)
       rails (~> 3.0)
       sass
+    fssm (0.2.10)
     has_scope (0.5.1)
     hashie (1.2.0)
     hike (1.2.1)
@@ -221,6 +229,7 @@ DEPENDENCIES
   activerecord-reputation-system
   carrierwave
   coffee-rails (~> 3.2.1)
+  compass-rails
   country-select
   devise
   fb_graph
