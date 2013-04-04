@@ -14,6 +14,7 @@
  *= require foundation-icons
  *= require fc-webicons
  *= require redactor-rails
+ *= require jquery.jscrollpane
  *= require global
  *= require_tree .
  */

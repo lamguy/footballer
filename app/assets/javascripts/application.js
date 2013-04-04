@@ -19,6 +19,8 @@
 //= require foundation
 //= require jquery_ujs
 //= require jquery-ui
+//= require jquery.mousewheel
+//= require jquery.jscrollpane
 //= require autocomplete-rails
 $(document).foundation('dropdown topbar');
 $(document).ready(function() {
@@ -27,6 +29,8 @@ $(document).ready(function() {
 	}).mouseout(function() {
 		$(this).parents('.has-dropdown').removeClass('hover');
 	});
+
+	$('#live-commentary .commentary-inner').jScrollPane();
 })
 
 $(document).foundation();

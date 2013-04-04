@@ -8,3 +8,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Myriad Pro Semi Bold Condensed';
+    src: url('myriadpro-semiboldcond.eot');
+    src: url('myriadpro-semiboldcond?iefix') format('eot'),
+         url('myriadpro-semiboldcond.woff') format('woff'),
+         url('myriadpro-semiboldcond.ttf') format('truetype'),
+         url('myriadpro-semiboldcond.svg#webfontOJIfwzl6') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
