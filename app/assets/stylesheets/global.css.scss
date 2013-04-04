@@ -547,3 +547,79 @@ background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,25
 	text-align: center;
 	text-transform: uppercase;
 }
+
+#post-list {
+	margin-top: -0.75em;
+}
+
+#post-list li {
+	position: relative;
+	margin: 0 auto;
+	padding: .75em 0;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+	font-size: 100%;
+	line-height: 1.4;
+}
+
+#post-list li .thumb {
+	float: left;
+	margin: 0 13px 3px 0;
+	display: block;
+}
+
+#post-list li .text {
+	padding-left: 93px;
+}
+
+#post-list li .text a.tag {
+	font-family: "Helvetica Neue Condensed",Helvetica,sans-serif;
+	font-size: 13px;
+	position: relative;
+	top: -7px;
+	width: 30%;
+	color: #0077cc;
+	font-weight: normal;
+	text-transform: uppercase;
+	display: inline;
+}
+
+#post-list li .text .tag .taglink {
+	white-space: nowrap;
+	max-width: 130px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+#post-list li .text span.timestamp {
+	font-family: "Myriad Pro Condensed",Helvetica,sans-serif;
+	position: relative;
+	top: -3px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #aaa;
+	float: right;
+	text-align: right;
+	background-repeat: no-repeat;
+	width: 75px;
+	text-transform: uppercase;
+}
+
+#post-list li .text .headline {
+	position: relative;
+	top: -8px;
+	font-size: 14px;
+	display: block;
+	margin: 0;
+	color: black;
+	text-decoration: none;
+}
+
+#post-list li .text a.headline .broughtby {
+	display: block;
+	margin-top: 1px;
+	font-size: .8em;
+	color: gray;
+}
