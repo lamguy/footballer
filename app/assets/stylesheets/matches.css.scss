@@ -177,6 +177,11 @@
 	margin: 0 auto 15px;
 }
 
+#match-tasks {
+	position: relative;
+	display: block;
+}
+
 #match-tasks ul.tasks-tabs {
 	border-bottom: solid 1px #d7d7d7; /* outer stroke */
 	background-color: #fff; /* layer fill content */
