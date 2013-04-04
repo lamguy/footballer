@@ -190,11 +190,7 @@
 #match-tasks ul.tasks-tabs li {
 	float: left;
 	list-style: none;
-	border-left: solid 1px #eaeaea;
-}
-
-#match-tasks ul.tasks-tabs li:first-child, #match-tasks ul li:first-child a {
-	border-left: none;
+	border-right: solid 1px #eaeaea;
 }
 
 #match-tasks ul.tasks-tabs li a {
@@ -205,8 +201,12 @@
 	text-transform: uppercase;
 	padding: 0 20px;
 	text-decoration: none;
-	border-left: solid 1px #fdfdfd;
+	border-right: solid 1px #fdfdfd;
 	display: block;
+}
+
+#match-tasks ul.tasks-tabs li:first-child, #match-tasks ul li:first-child a {
+	border-left: none;
 }
 
 #match-tasks ul.tasks-tabs .ui-state-active a {
