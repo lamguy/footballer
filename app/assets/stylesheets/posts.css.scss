@@ -24,6 +24,8 @@
 }
 
 #post-container h1.post-heading {
+	font-family: 'Helvetica Neue Condensed', Helvetica, sans-serif;
+	font-weight: normal;
 	font-size: 28px;
 	line-height: 34px;
 }
@@ -79,7 +81,7 @@ div.post-leftcontent a.button {
 }
 
 div.post-leftcontent strong.date {
-	color: #555555;
+	color: #000000;
 	font-weight: bold;
 	height: auto;
 	font-size: 13px;

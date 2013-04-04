@@ -1,6 +1,6 @@
 $main_text_color: #333333;;
 $main_text_size: 16px;
-$main_text_line_height: 1.6;
+$main_text_line_height: 1.4;
 
 $facebook_color: #4C66A4;
 
@@ -548,11 +548,33 @@ background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,25
 	text-transform: uppercase;
 }
 
+#sidebar-head {
+	width: 100%;
+	height: 264px;
+	background-color: #000000;
+	margin-bottom: 20px;
+}
+
+#sidebar-head span {
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+	line-height: 20px;
+	padding-top: 115px;
+	font-family: "Helvetica Neue Condensed",Helvetica,sans-serif;
+	font-size: 16px;
+	position: relative;
+	color: #FFFFFF;
+}
+
+
 #post-list {
 	margin-top: -0.75em;
 }
 
 #post-list li {
+	list-style: none;
 	position: relative;
 	margin: 0 auto;
 	padding: .75em 0;
@@ -560,23 +582,44 @@ background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,25
 	border-bottom: 1px solid #eee;
 	font-size: 100%;
 	line-height: 1.4;
+	overflow: hidden;
+}
+
+#post-list li.ad p {
+	font-size: 13px;
+	margin-bottom: 0;
+	color: #666666;
+}
+
+#post-list li.ad p strong {
+	color: #999999;
+	font-size: 10px;
+	font-family: "Helvetica Neue Condensed",Helvetica,sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	display: block;
+	margin-bottom: 5px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
 }
 
 #post-list li .thumb {
+	width: 60px;
+	height: 60px;
 	float: left;
-	margin: 0 13px 3px 0;
+	margin: 8px 13px 3px 0;
 	display: block;
 }
 
 #post-list li .text {
-	padding-left: 93px;
+	padding-left: 70px;
+	margin-top: -7px;
 }
 
 #post-list li .text a.tag {
 	font-family: "Helvetica Neue Condensed",Helvetica,sans-serif;
 	font-size: 13px;
 	position: relative;
-	top: -7px;
 	width: 30%;
 	color: #0077cc;
 	font-weight: normal;
@@ -594,6 +637,7 @@ background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,25
 }
 
 #post-list li .text span.timestamp {
+	display: none;
 	font-family: "Myriad Pro Condensed",Helvetica,sans-serif;
 	position: relative;
 	top: -3px;
@@ -608,13 +652,17 @@ background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,25
 }
 
 #post-list li .text .headline {
+	color: #666666;
 	position: relative;
-	top: -8px;
-	font-size: 14px;
+	font-size: 13px;
 	display: block;
 	margin: 0;
-	color: black;
 	text-decoration: none;
+}
+
+#post-list li .text .headline .headline-txt {
+	font-size: 13px;
+	color: #666666;
 }
 
 #post-list li .text a.headline .broughtby {

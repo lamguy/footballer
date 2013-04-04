@@ -8,15 +8,14 @@
     <br>
     <span class="post-author">Bài viết nhận định của <%= link_to @post.user.firstname + ' ' + @post.user.lastname, edit_user_registration_path %></span>
 
-    <div class="voting small-2 columns">
-          <input type="hidden" value="5219535">
-          <%= link_to 'up vote', vote_post_path(@post, :type => 'up'), :method => :post, :class => 'vote-up-off' %>
+    <p>
+          <%= link_to 'B', vote_post_path(@post, :type => 'down'), :method => :post, :class => 'glyph social voting  vote-down-off' %>
           <span class="vote-count-post "><%= @post.reputation_for(:avg_rating).to_i %></span>
-          <%= link_to 'up vote', vote_post_path(@post, :type => 'down'), :method => :post, :class => 'vote-down-off' %>
-    </div>
+          <%= link_to 'A', vote_post_path(@post, :type => 'up'), :method => :post, :class => 'glyph social voting vote-up-off' %>
+    </p>
   </div>
 
-  <div class="small-6 large-6 columns" id="post-container">
+  <div class="small-6 large-7 columns" id="post-container">
     <%= image_tag(@post.bigimage, :class => 'post-header-image full-width') %>
     <div class="profile-header-inner-overlay"></div>
 
@@ -65,7 +64,7 @@
 
   </div>
 
-  <div id="sidebar" class="small-12 large-4 columns">
+  <div id="sidebar" class="small-12 large-3 columns">
     <ul id="post-list">
       <li id="post-5993533" class="current">
       <div class="wrapper">
@@ -81,6 +80,89 @@
           <span class="timestamp">6:01 PM</span>
           <a class="headline" href="">
           <span class="headline-txt">Shopster: Make Return Grocery Trips a Thing of the Past<span class="broughtby"></span></span></a>
+        </div>
+        <div class="clear">
+        </div>
+      </div>
+      </li>
+      <li id="post-5993533" class="current">
+      <div class="wrapper">
+        <div class="thumb_container">
+          <a class="thumbLink" href="#">
+          <img class="thumb" src="http://img.gawkerassets.com/img/18jig4zb6ocz3png/xsmall.png" width="80" height="45" alt="">
+          </a>
+        </div>
+        <div class="text">
+          <a href="" class="tag">
+          <span class="taglink">Chuyển nhượng</span>
+          </a>
+          <span class="timestamp">5:21 PM</span>
+          <a class="headline" href="">
+          <span class="headline-txt">Shinji Kagawa sẽ về MU mùa bóng sau.<span class="broughtby"></span></span></a>
+        </div>
+        <div class="clear">
+        </div>
+      </div>
+      </li>
+      <li class="ad">
+      <div class="wrapper">
+        <p><strong>Ad by Footads</strong>Fujifilm đang khuyến mãi, mua 1 tặng 1, nhanh chân lên nào</p>
+        <div class="clear">
+        </div>
+      </div>
+      </li>
+      <li id="post-5993533" class="current">
+      <div class="wrapper">
+        <div class="thumb_container">
+          <a class="thumbLink" href="#">
+          <img class="thumb" src="http://img.gawkerassets.com/img/18is9ovcxt5jajpg/xsmall.jpg" width="80" height="45" alt="">
+          </a>
+        </div>
+        <div class="text">
+          <a href="" class="tag">
+          <span class="taglink">Giao hữu</span>
+          </a>
+          <span class="timestamp">6:01 PM</span>
+          <a class="headline" href="">
+          <span class="headline-txt">Đội tuyển Việt Nam sẽ có trận giao hữu với MU Reserve<span class="broughtby"></span></span></a>
+        </div>
+        <div class="clear">
+        </div>
+      </div>
+      </li>
+      <li id="post-5993533" class="current">
+      <div class="wrapper">
+        <div class="thumb_container">
+          <a class="thumbLink" href="#">
+          <img class="thumb" src="http://img.gawkerassets.com/img/18ji8p0x59mexjpg/xsmall.jpg" width="80" height="45" alt="">
+          </a>
+        </div>
+        <div class="text">
+          <a href="" class="tag">
+          <span class="taglink">Ảnh Sân Cỏ</span>
+          </a>
+          <span class="timestamp">6:01 PM</span>
+          <a class="headline" href="">
+          <span class="headline-txt">Cùng chiêm ngưỡng những hình ảnh đẹp của bóng đá tuần này<span class="broughtby"></span></span></a>
+        </div>
+        <div class="clear">
+        </div>
+      </div>
+      </li>
+      <li id="post-5993533" class="current">
+      <div class="wrapper">
+        <div class="thumb_container">
+          <a class="thumbLink" href="#">
+          <img class="thumb" src="http://img.gawkerassets.com/img/18jhqr45paje2jpg/xsmall.jpg" width="80" height="45" alt="">
+          </a>
+        </div>
+        <div class="text">
+          <a href="" class="tag">
+          <span class="taglink">MAN UTD</span>
+          </a>
+          <span class="timestamp">6:01 PM</span>
+          <a class="headline" href="">
+          <span class="headline-txt">Sân Mỹ Đình sẽ bị san bằng cho việc xây dựng mới hoàn toàn<span class="broughtby"></span></span></a>
         </div>
         <div class="clear">
         </div>

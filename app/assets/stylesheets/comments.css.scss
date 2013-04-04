@@ -9,13 +9,14 @@
 
 
 #comment-container p, #comment-container li {
-	font-size: 14px;
+	font-size: 13px;
+	color: #666666;
 }
 
 #comment-container h2 {
 	font-family: 'Helvetica Neue Condensed', Helvetica, sans-serif;
-	color: #fa7332; /* text color */
-	font-size: 15px;
+	color: #000000; /* text color */
+	font-size: 13px;
 	line-height: 100%;
 	font-weight: normal;
 	letter-spacing: 1px;
@@ -75,7 +76,7 @@
 }
 
 .comment-item .author-name-meta strong {
-	color: #000000;
+	color: #0077cc;
 }
 
 .comment-item .button.follow {
