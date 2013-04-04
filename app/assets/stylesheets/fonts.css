@@ -10,12 +10,23 @@
 }
 
 @font-face {
-    font-family: 'Myriad Pro Semi Bold Condensed';
-    src: url('myriadpro-semiboldcond.eot');
-    src: url('myriadpro-semiboldcond?iefix') format('eot'),
-         url('myriadpro-semiboldcond.woff') format('woff'),
-         url('myriadpro-semiboldcond.ttf') format('truetype'),
-         url('myriadpro-semiboldcond.svg#webfontOJIfwzl6') format('svg');
+    font-family: 'Myriad Pro Condensed';
+    src: url('myriadpro-cond.eot');
+    src: url('myriadpro-cond?iefix') format('eot'),
+         url('myriadpro-cond.woff') format('woff'),
+         url('myriadpro-cond.ttf') format('truetype'),
+         url('myriadpro-cond.svg#webfontOJIfwzl6') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Bold Condensed';
+    src: url('myriadpro-boldcond.eot');
+    src: url('myriadpro-boldcond?iefix') format('eot'),
+         url('myriadpro-boldcond.woff') format('woff'),
+         url('myriadpro-boldcond.ttf') format('truetype'),
+         url('myriadpro-boldcond.svg#webfontOJIfwzl6') format('svg');
     font-weight: normal;
     font-style: normal;
 }
