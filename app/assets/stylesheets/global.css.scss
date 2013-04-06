@@ -1,6 +1,6 @@
 $main_text_color: #333333;;
 $main_text_size: 16px;
-$main_text_line_height: 1.4;
+$main_text_line_height: 1.6;
 
 $facebook_color: #4C66A4;
 
@@ -73,7 +73,7 @@ a:hover {
 	text-transform: uppercase;
 	color: #8f8f8f;
 	position: absolute;
-	top: 36px;
+	top: 27px;
 	left: 106px;
 	width: 200px;
 }
@@ -82,7 +82,7 @@ a:hover {
 	display: block;
 	position: absolute;
 	z-index: 1000;
-	top: 12px;
+	top: 5px;
 }
 
 #logo span {
@@ -97,8 +97,8 @@ a:hover {
 
 .top-bar {
     background: #000000;
-    height: 60px;
-    line-height: 60px;
+    height: 50px;
+    line-height: 50px;
     margin-bottom: 0;
 }
 
@@ -115,12 +115,12 @@ a:hover {
 }
 
 .top-bar ul li a {
-	line-height: 60px;
+	line-height: 50px;
 }
 
 .top-bar-section .profile_avatar {
 	float: left;
-	margin: 16px 5px 0 0;
+	margin: 12px 5px 0 0;
 }
 
 .top-bar-section ul li > a.button {
@@ -149,7 +149,7 @@ a:hover {
 }
 
 .top-bar-section ul li.has-dropdown > a:not(.button) {
-	line-height: 60px;
+	line-height: 50px;
 }
 
 .top-bar-section li a:not(.button):hover, 
@@ -206,8 +206,8 @@ a:hover {
 .main-navigation ul li a, .main-navigation ul li a:visited {
 	font-family: 'Helvetica Neue Condensed', Helvetica, sans-serif;
 	font-size: 14px;
-	line-height: 60px;
-	height: 81px;
+	line-height: 50px;
+	height: 70px;
 	font-weight: normal;
 	background-clip: padding-box;
     background: none;
