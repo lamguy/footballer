@@ -16,7 +16,9 @@ class CommentsController < ApplicationController
 			resource_path = match_path(@resource)
 		end
 		sanitized_comment = Sanitize.clean(params[:comment][:comment], Sanitize::Config::BASIC)
-		@comment = @resource.comments.create(:comment => sanitized_comment,  :user => current_user)
+		if @comment = @resource.comments.create(:comment => sanitized_comment,  :user => current_user)
+			@comment.create_activity :create,  owner: current_user
+		end
 		redirect_to resource_path
 	end
 end
