@@ -510,9 +510,19 @@ input.button-2:hover {
 }
 
 #sidebar .widget {
+	margin-bottom: 30px;
 }
 
 #sidebar .widget .widget-title {
+	font-family: "Helvetica Neue Condensed",Helvetica,sans-serif;
+	color: #000000;
+	font-size: 25px;
+	line-height: 1;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+#sidebar .widget.box .widget-title {
 	font-family: "Helvetica Neue Condensed",Helvetica,sans-serif;
 	text-transform: uppercase;
 background-color: #fff; /* layer fill content */
@@ -530,6 +540,11 @@ background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,.07) 0%, rgba(255,25
 	color: #555555;
 
 	border: solid 1px #ebebeb;
+}
+
+#sidebar .widget ul, #sidebar .widget ul li:last-child {
+	margin-bottom: 0;
+	border-bottom: none;
 }
 
 #sidebar .widget .match-table {
