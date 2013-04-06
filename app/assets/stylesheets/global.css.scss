@@ -19,12 +19,8 @@ p, ol, ul, td {
 	color: $main_text_color;
 }
 
-a {
+a, a:visited {
 	color: #0077cc;
-}
-
-a:visited {
-	color: #4a6b82;
 }
 
 a:hover {
@@ -506,7 +502,7 @@ input.button-2:hover {
 
 /* ======= Sidebar =========== */
 #sidebar {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 #sidebar.match-sidebar {

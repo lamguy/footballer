@@ -2,69 +2,71 @@
 
 <div id="main-container-inner" class="row">
 
-  <div class="post-leftcontent small-2 large-2 columns">
-    <%#= link_to image_tag(@post.user.profile_photo('large'), :alt => 'Awesome profile', :size => '50x50', :class => 'author-avatar left'), edit_user_registration_path %>
-    <strong class="date"><%= @post.created_at.strftime("%d tháng %m, %Y") %></strong> 
-    <br>
-    <span class="post-author">Bài viết nhận định của <%= link_to @post.user.firstname + ' ' + @post.user.lastname, edit_user_registration_path %></span>
-
-    <p>
-          <%= link_to 'B', vote_post_path(@post, :type => 'down'), :method => :post, :class => 'glyph social voting  vote-down-off' %>
-          <span class="vote-count-post "><%= @post.reputation_for(:avg_rating).to_i %></span>
-          <%= link_to 'A', vote_post_path(@post, :type => 'up'), :method => :post, :class => 'glyph social voting vote-up-off' %>
-    </p>
-  </div>
-
-  <div class="small-6 large-7 columns" id="post-container">
+  <div class="small-6 large-8 columns" id="post-container">
     <%= image_tag(@post.bigimage, :class => 'post-header-image full-width') %>
-    <div class="profile-header-inner-overlay"></div>
+    <div class="post-main large-offset-3">
+      <div class="profile-header-inner-overlay"></div>
 
+      <h1 class="post-heading"><%= @post.title %></h1>
 
-    <div class="page-timestamp">
-    </div>
+      <div class="row">
+        <div class="post-author large-7 columns">
+          <%= link_to image_tag(@post.user.profile_photo('large'), :alt => 'Awesome profile', :size => '40x40', :class => 'author-avatar left'), edit_user_registration_path %>
+          <strong class="date"><%= link_to @post.user.firstname + ' ' + @post.user.lastname, edit_user_registration_path %></strong>
 
-    <h1 class="post-heading"><%= @post.title %></h1>
+          <a href="" class="button follow xsmall green">Theo</a>
+        </div>
 
-    <div class="introduction">
-      <%= @post.summary.html_safe %>
-    </div>
+        <div class="page-timestamp large-5 columns">
 
-    <div class="content">
-    <%= @post.content.html_safe %>
-    </div>
-
-    <div class="tags-list">
-      <b>Tags:</b> <%= @post.tags %>
-    </div>
-
-
-  <%= link_to 'Edit', edit_post_path(@post) %> |
-  <%= link_to 'Back', posts_path %>
-
-    <div id="comment-container">
-      <h2>Bạn nghĩ gì về bài nhận định này?</h2>
-      
-      <!-- begin #comment-list -->
-      <div id="comment-list">
-        <%= render @post.comments %>
+          <span class="post-timestamp"><%= @post.created_at.strftime("%d tháng %m, %Y") %></span> <br>
+                <%= link_to 'B', vote_post_path(@post, :type => 'down'), :method => :post, :class => 'glyph social voting  vote-down-off' %>
+                <span class="vote-count-post "><%= @post.reputation_for(:avg_rating).to_i %></span>
+                <%= link_to 'A', vote_post_path(@post, :type => 'up'), :method => :post, :class => 'glyph social voting vote-up-off' %>
+        </div>
       </div>
-      <!-- end #comment-list -->
 
-      <%= form_for([@post, @post.comments.build]) do |f| %>
+      <div class="introduction">
+        <%= @post.summary.html_safe %>
+      </div>
 
-        <p class="field comment-textarea">
-          <%= link_to image_tag(current_user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
-          <%= f.text_area :comment, :placeholder => 'Ý kiến cá nhân của bạn?' %>
-        </p>
-        <p class="actions">
-          <%= f.submit 'Gởi bình luận', :class => 'button' %>
-        </p>
-      <% end %>
+      <div class="content">
+      <%= @post.content.html_safe %>
+      </div>
+
+      <div class="tags-list">
+        <b>Tags:</b> <%= @post.tags %>
+      </div>
+
+
+    <%= link_to 'Edit', edit_post_path(@post) %> |
+    <%= link_to 'Back', posts_path %>
+
+      <div id="comment-container">
+        <h2>Bạn nghĩ gì về bài nhận định này?</h2>
+
+        <%= form_for([@post, current_user.comments.build]) do |f| %>
+
+          <p class="field comment-textarea">
+            <%= link_to image_tag(current_user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
+            <%= f.text_area :comment, :placeholder => 'Ý kiến cá nhân của bạn?' %>
+          </p>
+          <p class="actions">
+            <%= f.submit 'Gởi bình luận', :class => 'button' %>
+          </p>
+        <% end %>
+        
+        <!-- begin #comment-list -->
+        <div id="comment-list">
+          <%= render @post.comments.reverse %>
+        </div>
+        <!-- end #comment-list -->
+      </div>
     </div>
 
   </div>
 
-  <div id="sidebar" class="small-12 large-3 columns">
+  <div id="sidebar" class="small-12 large-4 columns">
     <ul id="post-list">
       <li id="post-5993533" class="current">
       <div class="wrapper">

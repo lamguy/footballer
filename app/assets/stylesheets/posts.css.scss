@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #post-container {
-	margin-top: 50px;
+	margin-top: 40px;
 	position: relative;
 	z-index: 400;
 	background: #FFFFFF;
@@ -19,15 +19,53 @@
 	left: 0;
 }
 
+#post-container .post-main {
+	background: #ffffff;
+	margin-top: -130px;
+	padding: 15px 0 15px 15px;
+}
+
 #post-container img.post-header-image {
 	margin-bottom: 25px;
 }
 
 #post-container h1.post-heading {
-	font-family: 'Helvetica Neue Condensed', Helvetica, sans-serif;
+	font-family: "Helvetica Neue Condensed",Helvetica,sans-serif;
 	font-weight: normal;
 	font-size: 28px;
 	line-height: 34px;
+}
+
+#post-container .post-author {
+	float: left;
+    font-size: 14px;
+    line-height: 1;
+    position: relative;
+}
+
+#post-container .post-author img {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+#post-container .post-author strong {
+	display: block;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+#post-container .post-author .button {
+	text-transform: uppercase;
+	font-family: "Helvetica Neue Condensed",Helvetica,sans-serif;
+	font-weight: normal;
+}
+
+#post-container .page-timestamp {
+	float: right;
+	font-size: 13px;
+	text-align: right;
 }
 
 #post-container div.introduction p {
@@ -35,7 +73,7 @@
 	line-height: 1.4;
 	color: #6f6f6f;
 	font-weight: 300;
-	margin-top: 0.2em;
+	margin-top: 1.2em;
 	margin-bottom: 0.5em;
 }
 
