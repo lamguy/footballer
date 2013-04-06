@@ -55,3 +55,4 @@ gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 
 gem 'rails3-jquery-autocomplete'
+gem 'public_activity'
