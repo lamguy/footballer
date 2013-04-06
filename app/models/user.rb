@@ -35,6 +35,9 @@ class User < ActiveRecord::Base
                     { :reputation => :avg_rating, :of => :posts }
                  ]
 
+  acts_as_followable
+  acts_as_follower
+
   def self.find_for_facebook_oauth(auth, signed_in_resource=nil)
 	  user = User.where(:provider => auth.provider, :uid => auth.uid).first
 	  unless user

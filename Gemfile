@@ -56,3 +56,4 @@ gem 'omniauth-twitter'
 
 gem 'rails3-jquery-autocomplete'
 gem 'public_activity'
+gem 'acts_as_follower'
