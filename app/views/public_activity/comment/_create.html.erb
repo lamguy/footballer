@@ -1,1 +1,1 @@
-<li>added comment to  <%= link_to activity.trackable.post.title, activity.trackable.post %></li>
+<li><%= link_to activity.owner.name, activity.owner if activity.owner %> added comment to  <%= link_to activity.trackable.post.title, activity.trackable.post %></li>
