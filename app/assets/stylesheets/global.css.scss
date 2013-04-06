@@ -518,6 +518,7 @@ input.button-2:hover {
 	font-size: 22px;
 	line-height: 1;
 	font-weight: normal;
+	margin-top: 0;
 	margin-bottom: 20px;
 }
 
@@ -615,7 +616,7 @@ input.button-2:hover {
 	list-style: none;
 	position: relative;
 	margin: 0 auto;
-	padding: .75em 0;
+	padding: .55em 0;
 	overflow: hidden;
 	border-bottom: 1px solid #eee;
 	font-size: 100%;
@@ -642,21 +643,22 @@ input.button-2:hover {
 }
 
 #post-list li .thumb {
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 	float: left;
 	margin: 6px 13px 3px 0;
 	display: block;
 }
 
 #post-list li .text {
-	padding-left: 70px;
+	padding-left: 50px;
 	margin-top: -7px;
 }
 
 #post-list li .text a.tag {
 	font-family: "Helvetica Neue Condensed",Helvetica,sans-serif;
-	font-size: 13px;
+	font-size: 11px;
+	letter-spacing: 1px;
 	position: relative;
 	width: 30%;
 	color: #0077cc;
@@ -693,6 +695,7 @@ input.button-2:hover {
 	color: #666666;
 	position: relative;
 	font-size: 13px;
+	line-height: 1.35;
 	display: block;
 	margin: 0;
 	text-decoration: none;
