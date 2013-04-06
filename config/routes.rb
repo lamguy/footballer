@@ -39,6 +39,7 @@ Footballer::Application.routes.draw do
   resources :users, :path => 'user', :only => :show do
     member {
       post :follow
+      delete :goodbye
     }
   end
 

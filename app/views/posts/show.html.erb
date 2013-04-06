@@ -14,7 +14,11 @@
           <%= link_to image_tag(@post.user.profile_photo('square'), :alt => 'Awesome profile', :size => '40x40', :class => 'author-avatar left'), user_path(@post.user) %>
           <strong class="date"><%= link_to @post.user.firstname + ' ' + @post.user.lastname, user_path(@post.user) %></strong>
 
-          <%= link_to 'Theo', follow_user_path(@post.user), :class => 'button follow xsmall green', :method => :post %>
+          <% if current_user && current_user.following?(@post.user) %>
+            <%= link_to 'Goodbye!', goodbye_user_path(@post.user), :class => 'button follow xsmall grey', :method => :delete %>
+          <% else %>
+            <%= link_to 'Theo', follow_user_path(@post.user), :class => 'button follow xsmall green', :method => :post %>
+          <% end %>
         </div>
 
         <div class="page-timestamp large-5 columns">

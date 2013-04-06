@@ -12,6 +12,16 @@ class UsersController < ApplicationController
 
 	def follow
 		@user = User.find(params[:id]) if params[:id]
+		current_user.follow(@user) if current_user
+
+		session[:return_to] ||= request.referer
+		redirect_to session.delete(:return_to)
+	end
+
+	def goodbye
+		@user = User.find(params[:id]) if params[:id]
+		current_user.stop_following(@user) if current_user
+		
 		session[:return_to] ||= request.referer
 		redirect_to session.delete(:return_to)
 	end
