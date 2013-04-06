@@ -712,3 +712,29 @@ input.button-2:hover {
 	font-size: .8em;
 	color: gray;
 }
+
+.widget.activities ul, .widget.activities ul li {
+	list-style: none;
+}
+
+.widget.activities ul li {
+	position: relative;
+	margin: 0 auto;
+	padding: 0.55em 0;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+	font-size: 13px;
+	line-height: 1.4;
+	overflow: hidden;
+}
+
+.widget.activities ul li .author-avatar {
+	-moz-border-radius: 3px; /* from vector shape */
+	-webkit-border-radius: 3px; /* from vector shape */
+	border-radius: 3px; /* from vector shape */
+}
+
+.widget.activities ul li .activity_text {
+	padding-left: 50px;
+	display: block;
+}

@@ -1,1 +1,4 @@
-<li><%= link_to activity.owner.name, activity.owner if activity.owner %> added comment to  <%= link_to activity.trackable.post.title, activity.trackable.post %></li>
+<li>
+	<%= link_to image_tag(activity.owner.profile_photo('square'), :alt => 'View my profile', :size => '40x40', :class => 'author-avatar left'), activity.owner if activity.owner %> 
+	<span class="activity_text"><%= content_tag(:strong, activity.owner.name) %> added comment to  <%= link_to activity.trackable.post.title, activity.trackable.post %></span>
+</li>
