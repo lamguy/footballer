@@ -11,10 +11,10 @@
 
       <div class="row">
         <div class="post-author large-7 columns">
-          <%= link_to image_tag(@post.user.profile_photo('square'), :alt => 'Awesome profile', :size => '40x40', :class => 'author-avatar left'), user_path %>
-          <strong class="date"><%= link_to @post.user.firstname + ' ' + @post.user.lastname, user_path %></strong>
+          <%= link_to image_tag(@post.user.profile_photo('square'), :alt => 'Awesome profile', :size => '40x40', :class => 'author-avatar left'), user_path(@post.user) %>
+          <strong class="date"><%= link_to @post.user.firstname + ' ' + @post.user.lastname, user_path(@post.user) %></strong>
 
-          <%= link_to 'Theo', follow_user_path, :class => 'button follow xsmall green' %>
+          <%= link_to 'Theo', follow_user_path(@post.user), :class => 'button follow xsmall green', :method => :post %>
         </div>
 
         <div class="page-timestamp large-5 columns">
