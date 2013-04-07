@@ -2,11 +2,16 @@
 	<div class="row">
 		<div class="comment-body small-12 large-12 column">
 
-			<%= link_to image_tag(comment.user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
-			<a href="" class="button follow xsmall green">Theo</a>
+			<%= link_to image_tag(comment.user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), user_path(comment.user), :class => 'avatar-block' %>
+
+          <% if current_user && current_user.following?(comment.user) %>
+            <%= link_to 'Bye!', goodbye_user_path(comment.user), :class => 'button follow xsmall green', :method => :delete %>
+          <% else %>
+            <%= link_to 'Theo', follow_user_path(comment.user), :class => 'button follow xsmall grey', :method => :post %>
+          <% end %>
 
 			<span class="author-name-meta">
-				<strong><%= comment.user.firstname + ' ' + comment.user.lastname %></strong> - 2h trước <br>
+				<strong><%= link_to comment.user.name, user_path(comment.user) %></strong> - 2h trước <br>
 				
 			</span>
 			<%= simple_format(comment.comment).html_safe %>

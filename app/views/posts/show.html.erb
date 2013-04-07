@@ -15,9 +15,9 @@
           <strong class="date"><%= link_to @post.user.firstname + ' ' + @post.user.lastname, user_path(@post.user) %></strong>
 
           <% if current_user && current_user.following?(@post.user) %>
-            <%= link_to 'Goodbye!', goodbye_user_path(@post.user), :class => 'button follow xsmall grey', :method => :delete %>
+            <%= link_to 'Bye!', goodbye_user_path(@post.user), :class => 'button follow xsmall green', :method => :delete %>
           <% else %>
-            <%= link_to 'Theo', follow_user_path(@post.user), :class => 'button follow xsmall green', :method => :post %>
+            <%= link_to 'Theo', follow_user_path(@post.user), :class => 'button follow xsmall grey', :method => :post %>
           <% end %>
         </div>
 
@@ -128,40 +128,6 @@
               <span class="timestamp">6:01 PM</span>
               <a class="headline" href="">
               <span class="headline-txt">Đội tuyển Việt Nam sẽ có trận giao hữu với MU Reserve<span class="broughtby"></span></span></a>
-            </div>
-            <div class="clear">
-            </div>
-          </div>
-          </li>
-          <li id="post-5993533" class="current">
-          <div class="wrapper">
-            <div class="thumb_container">
-              <a class="thumbLink" href="#">
-              <img class="thumb" src="http://img.gawkerassets.com/img/18ji8p0x59mexjpg/xsmall.jpg" width="80" height="45" alt="">
-              </a>
-            </div>
-            <div class="text">
-              <a href="" class="tag">Ảnh Sân Cỏ</a>
-              <span class="timestamp">6:01 PM</span>
-              <a class="headline" href="">
-              <span class="headline-txt">Cùng chiêm ngưỡng những hình ảnh đẹp của bóng đá tuần này<span class="broughtby"></span></span></a>
-            </div>
-            <div class="clear">
-            </div>
-          </div>
-          </li>
-          <li id="post-5993533" class="current">
-          <div class="wrapper">
-            <div class="thumb_container">
-              <a class="thumbLink" href="#">
-              <img class="thumb" src="http://img.gawkerassets.com/img/18jhqr45paje2jpg/xsmall.jpg" width="80" height="45" alt="">
-              </a>
-            </div>
-            <div class="text">
-              <a href="" class="tag">MAN UTD</a>
-              <span class="timestamp">6:01 PM</span>
-              <a class="headline" href="">
-              <span class="headline-txt">Sân Mỹ Đình sẽ bị san bằng cho việc xây dựng mới hoàn toàn<span class="broughtby"></span></span></a>
             </div>
             <div class="clear">
             </div>
