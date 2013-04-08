@@ -15,7 +15,7 @@
           <strong class="date"><%= link_to @post.user.firstname + ' ' + @post.user.lastname, user_path(@post.user) %></strong>
 
           <% if current_user && current_user.following?(@post.user) %>
-            <%= link_to 'Bye!', goodbye_user_path(@post.user), :class => 'button follow xsmall green follow-'+@post.user.id.to_s, :method => :post, :remote => true %>
+            <%= link_to 'Bye!', goodbye_user_path(@post.user), :class => 'button follow xsmall green unfollow-'+@post.user.id.to_s, :method => :post, :remote => true %>
           <% else %>
             <%= link_to 'Theo', follow_user_path(@post.user), :class => 'button follow xsmall grey follow-'+@post.user.id.to_s, :method => :post, :remote => true %>
           <% end %>

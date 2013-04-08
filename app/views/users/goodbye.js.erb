@@ -1,5 +1,5 @@
-$('a.follow-<%= @user.id %>')
-		.removeClass('green')
-		.addClass('grey')
+$('a.unfollow-<%= @user.id %>')
+		.removeClass('green unfollow-<%= @user.id %>')
+		.addClass('grey follow-<%= @user.id %>')
 		.attr('href', '<%= follow_user_path(@user) %>')
 		.html('Theo');
