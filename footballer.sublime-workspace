@@ -4,12 +4,360 @@
 		"selected_items":
 		[
 			[
-				"sess",
-				"session_destroy"
+				"marg",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"las",
+				"last-child"
+			],
+			[
+				"x",
+				"xml-	xmlread(..)"
+			],
+			[
+				"de",
+				"defs	def self .. end"
+			],
+			[
+				"resou",
+				"resources"
+			],
+			[
+				"has",
+				"has_many"
+			],
+			[
+				"curre",
+				"current_user"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"top-",
+				"top-bar-wrapper"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"parent  (function)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mous",
+				"mouseover  (function)"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"lis",
+				"lis-n	list-style: none;"
+			],
+			[
+				"border-",
+				"border-left"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"pos",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"inl",
+				"inline-table"
+			],
+			[
+				"team",
+				"team_id"
+			],
+			[
+				"sel",
+				"self"
 			],
 			[
 				"if",
-				"ifelse	if … else …"
+				"ife	if … else … end"
+			],
+			[
+				"tea",
+				"team-away"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"match",
+				"match_id"
+			],
+			[
+				"ma",
+				"match"
+			],
+			[
+				"sta",
+				"stadium"
+			],
+			[
+				"team_awa",
+				"team_away_id"
+			],
+			[
+				"team_",
+				"team_home_id"
+			],
+			[
+				"resour",
+				"resource"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"to",
+				"to_s"
+			],
+			[
+				"rep",
+				"reputation"
+			],
+			[
+				"comm",
+				"commenting_skill"
+			],
+			[
+				"edit",
+				"edit_user_registration_path"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"po",
+				"post-container"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"first",
+				"firstname"
+			],
+			[
+				"firs",
+				"first"
+			],
+			[
+				"whe",
+				"where"
+			],
+			[
+				"au",
+				"auth"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"aut",
+				"authentication"
+			],
+			[
+				"lin",
+				"linp	link_to (nested path)"
+			],
+			[
+				"main",
+				"main_text_size"
+			],
+			[
+				"mai",
+				"main_text_size"
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"cont",
+				"content_tag  (function)"
+			],
+			[
+				"image_",
+				"image_tag  (function)"
+			],
+			[
+				"face",
+				"facebook_link"
+			],
+			[
+				"facebook",
+				"facebook_avatar"
+			],
+			[
+				"ra",
+				"raw_info"
+			],
+			[
+				"faceboo",
+				"facebook_avatar"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"h",
+				"has-dropdown"
+			],
+			[
+				"ad",
+				"addClass  (function)"
+			],
+			[
+				"m",
+				"mouseout  (function)"
+			],
+			[
+				"mos",
+				"mouseout  (function)"
+			],
+			[
+				"APP_",
+				"APP_SECRET"
+			],
+			[
+				"main_",
+				"main_text_line_height"
+			],
+			[
+				"sess",
+				"session_destroy"
 			],
 			[
 				"html",
@@ -52,10 +400,6 @@
 				"doc_f	Function"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"mysqli_",
 				"mysqli_execute"
 			],
@@ -76,10 +420,6 @@
 				"wp_reset_query"
 			],
 			[
-				"marg",
-				"margin-bottom"
-			],
-			[
 				"site",
 				"site_url"
 			],
@@ -92,32 +432,12 @@
 				"border"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"padd",
-				"padding-bottom"
-			],
-			[
 				"get_attachment_im",
 				"wp_get_attachment_image"
 			],
 			[
-				"pad",
-				"padding-top"
-			],
-			[
 				"margi",
 				"margin"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"ma",
-				"margin-bottom"
 			],
 			[
 				"car",
@@ -135,6 +455,118 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/posts/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 5928,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/matches/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 6131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1219,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 4323,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/follow.js.erb",
+			"settings":
+			{
+				"buffer_size": 46,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 2509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 378,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/public_activity/comment/_create.html.erb",
+			"settings":
+			{
+				"buffer_size": 444,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/posts.css.scss",
+			"settings":
+			{
+				"buffer_size": 3437,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/matches.css.scss",
+			"settings":
+			{
+				"buffer_size": 8564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/global.css.scss",
+			"settings":
+			{
+				"buffer_size": 23046,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/comments/_comment.html.erb",
+			"settings":
+			{
+				"buffer_size": 1644,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/comments.css.scss",
+			"settings":
+			{
+				"buffer_size": 2352,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"command_palette":
@@ -151,7 +583,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 575.0
+		"width": 602.0
 	},
 	"console":
 	{
@@ -168,12 +600,119 @@
 	},
 	"file_history":
 	[
-		"/Users/me/Dropbox/rails/footballer/Gemfile",
-		"/Users/me/Dropbox/rails/footballer/config/environments/development.rb",
-		"/Users/me/Dropbox/rails/footballer/app/views/layouts/application.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/matches/show.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/public_activity/comment/_create.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/comments.css.scss",
+		"/Users/me/Dropbox/rails/footballer/app/controllers/users/omniauth_callbacks_controller.rb",
+		"/Users/me/Dropbox/rails/footballer/app/controllers/users/registrations_controller.rb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/active_admin.css.scss",
+		"/Users/me/Dropbox/rails/footballer/app/assets/javascripts/application.js",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/application.css",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/jquery.jscrollpane.css",
+		"/Users/me/Dropbox/rails/footballer/app/controllers/comments_controller.rb",
+		"/Users/me/Dropbox/rails/footballer/app/views/posts/show.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/controllers/application_controller.rb",
+		"/Users/me/Dropbox/rails/footballer/app/models/activities.rb",
+		"/Users/me/Dropbox/rails/footballer/app/models/user.rb",
+		"/Users/me/Dropbox/rails/footballer/app/models/post.rb",
+		"/Users/me/Dropbox/rails/footballer/app/helpers/application_helper.rb",
 		"/Users/me/Dropbox/rails/footballer/config/routes.rb",
-		"/Users/me/Dropbox/rails/footballer/db/migrate/20130328063351_add_additional_fields_to_users.rb",
+		"/Users/me/Dropbox/rails/footballer/app/controllers/users_controller.rb",
+		"/Users/me/Dropbox/rails/footballer/app/views/users/show.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/devise/registrations/edit.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/comments/_comment.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/global.css.scss",
+		"/Users/me/Dropbox/rails/footballer/Gemfile",
+		"/Users/me/Dropbox/rails/footballer/app/assets/javascripts/active_admin.js",
+		"/Users/me/Dropbox/rails/footballer/app/admin/players.rb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/matches.css.scss",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/fonts.css",
+		"/Users/me/Dropbox/rails/footballer/app/views/shared/_menu.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/layouts/application.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/posts.css.scss",
+		"/Users/me/Dropbox/rails/footballer/app/models/comment.rb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/active_admin.css",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/config.rb",
+		"/Users/me/Dropbox/rails/footballer/config/application.rb",
+		"/Users/me/Dropbox/rails/footballer/app/models/redactor_rails/asset.rb",
+		"/Users/me/Dropbox/rails/footballer/app/controllers/users/registrations_controller.erb",
+		"/Users/me/Dropbox/rails/footballer/app/controllers/users/registration_controller.erb",
+		"/Users/me/Dropbox/rails/footballer/app/models/team.rb",
+		"/Users/me/Dropbox/rails/footballer/app/models/match.rb",
+		"/Users/me/Dropbox/rails/footballer/app/models/commentary.rb",
+		"/Users/me/Dropbox/rails/footballer/config/initializers/active_admin.rb",
+		"/Users/me/Dropbox/rails/footballer/app/models/player.rb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130402000539_create_playing_teams.rb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130402041204_create_matches.rb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130402043401_add_team_index_to_stadium.rb",
+		"/Users/me/Dropbox/rails/footballer/lib/active_admin.rb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/foundation_and_overrides.css.scss",
+		"/Users/me/Dropbox/rails/footballer/app/models/division.rb",
+		"/Users/me/Dropbox/rails/footballer/app/models/league.rb",
+		"/Users/me/Dropbox/rails/footballer/app/models/region.rb",
+		"/Users/me/Dropbox/rails/footballer/app/models/stadium.rb",
+		"/Users/me/Dropbox/rails/footballer/config/initializers/inflections.rb",
+		"/Users/me/Dropbox/rails/footballer/app/admin/commentaries.rb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130402090628_add_comment_index_to_match.rb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130401235257_teams_players.rb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130401233206_create_players.rb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130401053528_create_leagues.rb",
+		"/Users/me/Dropbox/rails/footballer/app/admin/posts.rb",
+		"/Users/me/Dropbox/rails/footballer/app/admin/teams.rb",
+		"/Users/me/Dropbox/rails/footballer/app/admin/stadiums.rb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/application.scss",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/application.css.scss",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/scaffolds.css.scss",
+		"/Users/me/Dropbox/rails/footballer/lib/active_admin_views_pages_base.rb",
+		"/Users/me/Dropbox/rails/footballer/app/views/devise/registrations/new.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/devise/unlocks/new.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/devise/passwords/edit.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/devise/passwords/new.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/devise/confirmations/new.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/leagues.css.scss",
+		"/Users/me/Dropbox/rails/footballer/app/controllers/posts_controller.rb",
+		"/Users/me/Dropbox/rails/footballer/app/views/posts/_form.html.erb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130329094444_rename_type_to_postype_from_posts.rb",
+		"/Users/me/Dropbox/rails/footballer/app/views/shared/_voting.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/admin/users.rb",
+		"/Users/me/Dropbox/rails/footballer/app/admin/comments.rb",
+		"/Users/me/Dropbox/rails/footballer/.gitignore",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/global.css",
+		"/Users/me/Dropbox/rails/footballer/config/environment.rb",
+		"/Users/me/Dropbox/rails/footballer/tmp/cache/sass/820195a7dacadef93f408996dd28dfa745465f21/_compact.scssc",
+		"/Users/me/Dropbox/rails/footballer/Gemfile.lock",
+		"/Users/me/Dropbox/rails/footballer/app/views/posts/shared/_voting.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/posts/index.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/posts/shared/_header.html.erb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130329112229_create_attachments.rb",
+		"/Users/me/Dropbox/rails/footballer/app/uploaders/redactor_rails_picture_uploader.rb",
+		"/Users/me/Dropbox/rails/footballer/app/uploaders/redactor_rails_document_uploader.rb",
 		"/Users/me/Dropbox/rails/footballer/app/views/devise/sessions/new.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/javascripts/redactor-rails/config.js",
+		"/Users/me/Dropbox/rails/footballer/app/views/posts/edit.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/views/posts/new.html.erb",
+		"/Users/me/Dropbox/rails/footballer/lib/templates/erb/scaffold/edit.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/controllers/home_controller.rb",
+		"/Users/me/Dropbox/rails/footballer/lib/templates/erb/scaffold/show.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/login.css.scss",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/fc-webicons.css",
+		"/Users/me/Dropbox/rails/footballer/app/views/devise/shared/_omniauthable.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/fc-webicons.css.scss",
+		"/Users/me/Dropbox/rails/footballer/app/views/devise/shared/_links.erb",
+		"/Users/me/Dropbox/rails/footballer/config/initializers/devise.rb",
+		"/Users/me/Dropbox/rails/footballer/config/initializers/session_store.rb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130329033221_add_confirmable_to_users.rb",
+		"/Users/me/Dropbox/rails/footballer/lib/templates/erb/scaffold/new.html.erb",
+		"/Users/me/Dropbox/rails/footballer/lib/templates/erb/scaffold/index.html.erb",
+		"/Users/me/Dropbox/rails/footballer/config/environments/development.rb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/foundation_and_overrides.css",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130328133113_add_facebook_avatar_and_facebook_url_to_users.rb",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130328093643_add_facebook_to_users.rb",
+		"/Users/me/Dropbox/rails/footballer/app/mailers/user_mailer.rb",
+		"/Users/me/Dropbox/rails/footballer/lib/templates/erb/scaffold/_form.html.erb",
+		"/Users/me/Dropbox/rails/footballer/app/assets/stylesheets/.sass-cache/b4fc03894e45bbb116c8a03c73f8479fca89b9b4/foundation_and_overrides.scssc",
+		"/Users/me/Dropbox/rails/footballer/db/migrate/20130328063351_add_additional_fields_to_users.rb",
 		"/Users/me/dev/assignments/INEW1224/kidflix/KidFlix",
 		"/Users/me/dev/assignments/INEW1224/kidflix/sidebar.php",
 		"/Users/me/dev/assignments/INEW1224/kidflix/functions.php",
@@ -188,74 +727,7 @@
 		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-industry.php",
 		"/Users/me/dev/projects/jacob/tdev/thoughtdev/sftp-config.json",
 		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/stylesheets/app.css",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/index.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/footer.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/quotes.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/menu.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/widgets.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-motion.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/slides.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/users.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/option_data/global.xml",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/sidebar-motion.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/footer.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/header.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-services.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-company.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/setting.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/setting.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page-list.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/page.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/option_data/global.xml",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/dashboard.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/users.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/images.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/js/setting_script.js",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/css/setting_style.css",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/meta.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/functions.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/scripts.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/sidebar-products.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/page-products.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/header.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/libs/menu.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/sftp-config.json",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/style.css",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/style.css",
-		"/Volumes/tdev/thought-dev.com/html/dev/wp-content/plugins/disable-verification.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/single-client.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/css/setting_style.css",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/clients.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/sidebar-tv.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev/libs/functions.php",
-		"/Users/me/dev/projects/jacob/tdev/thoughtdev-dev/sftp-config.json",
-		"/Users/me/dev/projects/jacob/thoughtdev/html/ZURB-Foundation3-Navigation.gstencil/data.plist",
-		"/opt/local/apache2/conf/httpd.conf",
-		"/opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_devel_apr/apr/main.log",
-		"/private/etc/apache2/original/httpd.conf",
-		"/Library/WebServer/Documents/index.html.en",
-		"/Users/me/dev/projects/ken/vault/wordpress/vault.sublime-workspace",
-		"/Users/me/dev/projects/ken/vault/wordpress/vault.sublime-project",
-		"/Users/me/dev/projects/ken/vault/wordpress/libs/css/setting_style.css",
-		"/Users/me/dev/projects/me/rails/weddability/lib/creditcard_helper.rb",
-		"/Users/me/dev/projects/me/rails/weddability/lib/creditcard_validator.rb",
-		"/Users/me/dev/projects/me/rails/weddability/lib/creditcard",
-		"/Users/me/dev/projects/me/rails/weddability/db/migrate/20121008111921_add_payment_token_to_account.rb",
-		"/Users/me/dev/projects/me/rails/weddability/config/application.rb",
-		"/Users/me/dev/projects/me/rails/weddability/Gemfile",
-		"/Users/me/dev/projects/me/rails/weddability/app/controllers/orders_controller.rb",
-		"/Users/me/dev/projects/me/rails/weddability/app/models/address.rb",
-		"/Users/me/dev/projects/me/rails/weddability/app/models/order.rb",
-		"/Users/me/dev/projects/me/rails/weddability/config/database.yml",
-		"/Users/me/dev/projects/me/rails/weddability/.gitignore",
-		"/Users/me/dev/projects/me/rails/weddability/cd",
-		"/Users/me/Library/Application Support/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
-		"/etc/hosts",
-		"/Users/me/dev/projects/me/rails/weddability/app/views/accounts/menu/_login_items_html.erb",
-		"/Users/me/dev/projects/me/rails/weddability/app/views/accounts/passwords/new.html.erb",
-		"/Users/me/dev/projects/me/rails/weddability/app/views/accounts/sessions/new.html.erb",
-		"/Users/me/.profile",
-		"/etc/apache2/httpd.conf"
+		"/Users/me/dev/projects/jacob/tdev/thoughtdev-client/index.php"
 	],
 	"find":
 	{
@@ -273,6 +745,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"follow",
+			"#sidebar .widget .widget-title",
+			"widget",
+			"#post-container img.post-header-image",
+			".comment-item.even, .comment-item.odd",
+			"#post-container h1.post-heading",
+			"heading",
+			"#comment-container h2",
+			"vote",
+			"cote",
+			".label",
+			"text-shadow",
+			"text-s",
+			"button",
+			".main-navigation",
+			"trans",
+			"background: url(\"images/foundation/fc-webicon",
+			"background: url(\"images/fc-webicon",
+			"top-bar",
+			"button",
+			"omni",
 			"button",
 			"#main_nav .nav-bar > li a",
 			".top-bar ul > li.has-dropdown .dropdown li",
@@ -319,6 +812,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"background: url(\"foundation/fc-webicon",
+			"background: url(\"images/foundation/fc-webicon",
 			""
 		],
 		"reverse": false,
@@ -332,6 +827,460 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/posts/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 5928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								849,
+								845
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/matches/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 6131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5041,
+								5041
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								499,
+								499
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 4323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2523,
+								2523
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 494.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/users_controller.rb",
+					"settings":
+					{
+						"buffer_size": 835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								831,
+								831
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/users/follow.js.erb",
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/JavaScript (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 2509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								598,
+								598
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/controllers/application_controller.rb",
+					"settings":
+					{
+						"buffer_size": 378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 256.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/public_activity/comment/_create.html.erb",
+					"settings":
+					{
+						"buffer_size": 444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "app/assets/stylesheets/posts.css.scss",
+					"settings":
+					{
+						"buffer_size": 3437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								671,
+								671
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/public_activity/comment/_create.html.erb",
+					"settings":
+					{
+						"buffer_size": 444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								210
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/assets/stylesheets/matches.css.scss",
+					"settings":
+					{
+						"buffer_size": 8564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1774,
+								1774
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 773.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/assets/stylesheets/global.css.scss",
+					"settings":
+					{
+						"buffer_size": 23046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8371,
+								8371
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 230.0,
+						"translation.y": 4373.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/views/comments/_comment.html.erb",
+					"settings":
+					{
+						"buffer_size": 1644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								691,
+								691
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/assets/stylesheets/comments.css.scss",
+					"settings":
+					{
+						"buffer_size": 2352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1676,
+								1676
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 623.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -352,11 +1301,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.573743345996,
 			1.0
 		],
 		"rows":
@@ -384,6 +1340,198 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"_creat",
+				"app/views/public_activity/comment/_create.html.erb"
+			],
+			[
+				"comment.css.sc",
+				"app/assets/stylesheets/comments.css.scss"
+			],
+			[
+				"_create",
+				"app/views/public_activity/comment/_create.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"modelcomme",
+				"app/models/comment.rb"
+			],
+			[
+				"scroll",
+				"app/assets/stylesheets/jquery.jscrollpane.css"
+			],
+			[
+				"config",
+				"app/assets/stylesheets/config.rb"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"ass",
+				"app/models/redactor_rails/asset.rb"
+			],
+			[
+				"comment.css",
+				"app/assets/stylesheets/comments.css.scss"
+			],
+			[
+				"_comment",
+				"app/views/comments/_comment.html.erb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"registra",
+				"app/views/devise/registrations/edit.html.erb"
+			],
+			[
+				"",
+				"app/assets/stylesheets/comments.css.scss"
+			],
+			[
+				"mat",
+				"app/models/match.rb"
+			],
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
+				"initad",
+				"config/initializers/active_admin.rb"
+			],
+			[
+				"play",
+				"app/models/player.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"applicationco",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"g",
+				"Gemfile"
+			],
+			[
+				"compass",
+				"tmp/cache/sass/820195a7dacadef93f408996dd28dfa745465f21/_compact.scssc"
+			],
+			[
+				"envi",
+				"config/environment.rb"
+			],
+			[
+				"globa",
+				"app/assets/stylesheets/global.css.scss"
+			],
+			[
+				"global",
+				"app/assets/stylesheets/global.css"
+			],
+			[
+				"sho",
+				"app/views/posts/show.html.erb"
+			],
+			[
+				"coomment",
+				"app/views/comments/_comment.html.erb"
+			],
+			[
+				"postco",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"appl",
+				"config/application.rb"
+			],
+			[
+				"show",
+				"app/views/posts/show.html.erb"
+			],
+			[
+				"sh",
+				"app/views/posts/show.html.erb"
+			],
+			[
+				"activ",
+				"config/initializers/active_admin.rb"
+			],
+			[
+				"commen",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"postfo",
+				"app/views/posts/_form.html.erb"
+			],
+			[
+				"postnew",
+				"app/views/posts/new.html.erb"
+			],
+			[
+				"appjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"sessio",
+				"config/initializers/session_store.rb"
+			],
+			[
+				"om",
+				"app/controllers/users/omniauth_callbacks_controller.rb"
+			],
+			[
+				"us",
+				"app/models/user.rb"
+			],
+			[
+				"u",
+				"app/models/user.rb"
+			],
+			[
+				"omn",
+				"app/controllers/users/omniauth_callbacks_controller.rb"
+			],
+			[
+				"omni",
+				"app/controllers/users/omniauth_callbacks_controller.rb"
+			],
+			[
+				"usermail",
+				"app/mailers/user_mailer.rb"
+			],
+			[
+				"a",
+				"config/application.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			]
 		],
 		"width": 0.0
 	},
@@ -399,6 +1547,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 262.0,
+	"side_bar_width": 338.0,
 	"status_bar_visible": true
 }

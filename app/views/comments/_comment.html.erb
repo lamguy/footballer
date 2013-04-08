@@ -5,9 +5,9 @@
 			<%= link_to image_tag(comment.user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), user_path(comment.user), :class => 'avatar-block' %>
 
           <% if current_user && current_user.following?(comment.user) %>
-            <%= link_to 'Bye!', goodbye_user_path(comment.user), :class => 'button follow xsmall green', :method => :delete %>
+            <%= link_to 'Bye!', goodbye_user_path(comment.user), :class => 'button follow xsmall green', :method => :delete, :remote => true %>
           <% else %>
-            <%= link_to 'Theo', follow_user_path(comment.user), :class => 'button follow xsmall grey', :method => :post %>
+            <%= link_to 'Theo', follow_user_path(comment.user), :class => 'button follow xsmall grey', :method => :post, :remote => true %>
           <% end %>
 
 			<span class="author-name-meta">

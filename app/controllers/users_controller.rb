@@ -15,7 +15,11 @@ class UsersController < ApplicationController
 		current_user.follow(@user) if current_user
 
 		session[:return_to] ||= request.referer
-		redirect_to session.delete(:return_to)
+
+		respond_to do |format|
+			format.html { redirect_to session.delete(:return_to) }
+			format.js
+		end
 	end
 
 	def goodbye
@@ -23,7 +27,11 @@ class UsersController < ApplicationController
 		current_user.stop_following(@user) if current_user
 		
 		session[:return_to] ||= request.referer
-		redirect_to session.delete(:return_to)
+
+		respond_to do |format|
+			format.html { redirect_to session.delete(:return_to) }
+			format.js
+		end
 	end
 
 	private

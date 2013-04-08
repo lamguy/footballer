@@ -1,0 +1,5 @@
+$('a.follow-<%= @user.id %>')
+		.removeClass('grey')
+		.addClass('green')
+		.attr('href', '<%= goodbye_user_path(@user) %>')
+		.html('Bye!');
