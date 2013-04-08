@@ -1,0 +1,19 @@
+<% if @comment.errors.any? %>
+
+	var errors = $('<ul />');
+	<% @comment.errors.full_message.each do |error| %>
+		errors.append('<li><%= escape_javascript(error) %></li>');
+	<% end %>
+	//display errors before the form
+	$('<div />').addClass('errors'.html(errors).prependTo('#new_comment'));
+
+<% else %>
+
+	$('#comment-list').prepend('<%= escape_javascript(render( :partial => "comment", :object => @comment )) %>')
+	
+	/* Highlight the new comment */
+	$("#comment-<%= @comment.id %>").effect("highlight", {}, 3000);
+ 
+	// empty the form for new submission
+  	$('#comment_comment').val('');
+<% end %>

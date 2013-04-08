@@ -19,6 +19,10 @@ class CommentsController < ApplicationController
 		if @comment = @resource.comments.create(:comment => sanitized_comment,  :user => current_user)
 			@comment.create_activity :create,  owner: current_user
 		end
-		redirect_to resource_path
+		
+		respond_to do |format|
+			format.html { redirect_to resource_path }
+			format.js
+		end
 	end
 end

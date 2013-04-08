@@ -49,7 +49,7 @@
       <div id="comment-container">
         <h2>Bạn nghĩ gì về bài nhận định này?</h2>
 
-        <%= form_for([@post, current_user.comments.build]) do |f| %>
+        <%= form_for([@post, current_user.comments.build], :remote => true ) do |f| %>
 
           <p class="field comment-textarea">
             <%= link_to image_tag(current_user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
