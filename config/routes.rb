@@ -1,8 +1,10 @@
 Footballer::Application.routes.draw do
   resources :matches, :shallow => true do
+    resources :commentaries
     resources :comments do
       member { post :vote }
     end
+    member { get :latest_commentary }
   end
 
 

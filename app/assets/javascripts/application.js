@@ -39,6 +39,14 @@ $(document).ready(function() {
     });
 
 	$('#live-commentary .commentary-inner').jScrollPane();
+
+	setInterval(function(){
+	  latestCommentaryId = $('#commentaries li').first().attr('id').replace(/commentary-/, '');
+	  $.get("/matches/1/latest_commentary.js?latestCommentaryId="+latestCommentaryId, function(data){
+	  	$($.parseHTML(data)).prependTo('#commentaries').effect("highlight", {}, 3000);
+	  },
+	  "html")
+	}, 5000);
 })
 
 $(document).foundation();

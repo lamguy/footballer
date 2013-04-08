@@ -1,4 +1,4 @@
-  <li class="commentary-item odd">
-    <span class="timestamp"><strong>90'</strong></span>
-    <span class="commentary-content">(90 '+3) Finish the game, Atletico Madrid wins his second World Cup: Bilbao beat for 3 to 0, two goals from Diego Falcao and network</span>
+  <li id="commentary-<%= commentary.id %>" class="commentary-item odd">
+    <span class="timestamp"><strong><%= commentary.minute %></strong></span>
+    <span class="commentary-content"><%= commentary.commentary_text.to_s %></span>
   </li>

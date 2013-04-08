@@ -4,6 +4,7 @@ ActiveAdmin.register Commentary do
   form do |f|
 	f.inputs 'Gởi bình luận trận đấu đang diễn ra' do
 		f.input :match
+    f.input :minute
 		f.input :commentary_text
   	end
   	f.buttons

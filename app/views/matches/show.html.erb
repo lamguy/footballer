@@ -51,34 +51,7 @@
         <div id="live-commentary" class="large-12 column">
           <div class="commentary-inner">
             <ul id="commentaries">
-              <li class="commentary-item odd">
-                <span class="timestamp"><strong>90'</strong></span>
-                <span class="commentary-content">(90 '+3) Finish the game, Atletico Madrid wins his second World Cup: Bilbao beat for 3 to 0, two goals from Diego Falcao and network</span>
-              </li>
-              <li class="commentary-item even">
-                <span class="timestamp"><strong>90'</strong></span>
-                <span class="commentary-content">(90 '+3) Out of Turan in Dominguez</span>
-              </li>
-              <li class="commentary-item odd">
-                <span class="timestamp"><strong>82'</strong></span>
-                <span class="commentary-content">Third goal of Atletico Madrid, Sergio Aguero network, jumping two opponents left and stabs Iraizoz</span>
-              </li>
-              <li class="commentary-item even">
-                <span class="timestamp"><strong>80'</strong></span>
-                <span class="commentary-content">Cường Đôla lại tiếp tục chơi trò cũ, nguy hiểm quá. Thẻ đỏ cho Cường Đôla rồi. Anh phải ra về thôi!</span>
-              </li>
-              <li class="commentary-item odd">
-                <span class="timestamp"><strong>90'</strong></span>
-                <span class="commentary-content">(90 '+3) Out of Turan in Dominguez</span>
-              </li>
-              <li class="commentary-item even">
-                <span class="timestamp"><strong>90'</strong></span>
-                <span class="commentary-content">(90 '+3) Out of Turan in Dominguez</span>
-              </li>
-              <li class="commentary-item odd">
-                <span class="timestamp"><strong>90'</strong></span>
-                <span class="commentary-content">(90 '+3) Out of Turan in Dominguez</span>
-              </li>
+              <%= render @match.commentaries.reverse %>
             </ul>
           </div>
           <hr class="end-commentary">
