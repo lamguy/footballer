@@ -60,14 +60,8 @@
     </div>
     <div id="comment-container">
       <h2>Bạn nghĩ gì về trận đấu này?</h2>
-      
-      <!-- begin #comment-list -->
-      <div id="comment-list">
-        <%= render @match.comments %>
-      </div>
-      <!-- end #comment-list -->
 
-      <%= form_for([@match, @match.comments.build]) do |f| %>
+      <%= form_for([@match, current_user.comments.build], :remote => true) do |f| %>
 
         <p class="field comment-textarea">
           <%= link_to image_tag(current_user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), edit_user_registration_path, :class => 'avatar-block' %>
@@ -77,6 +71,13 @@
           <%= f.submit 'Gởi bình luận', :class => 'button' %>
         </p>
       <% end %>
+      
+      <!-- begin #comment-list -->
+      <div id="comment-list">
+        <%= render @match.comments.reverse %>
+      </div>
+      <!-- end #comment-list -->
+
     </div>
   </div>
 
