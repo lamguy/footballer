@@ -38,7 +38,9 @@ $(document).ready(function() {
       }
     });
 
-	$('#live-commentary .commentary-inner').jScrollPane();
+	$('#live-commentary .commentary-inner').jScrollPane({
+		autoReinitialise : true
+	});
 
 	setInterval(function(){
 	  latestCommentaryId = $('#commentaries li').first().attr('id').replace(/commentary-/, '');
