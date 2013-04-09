@@ -41,7 +41,7 @@
 
 			    <!--<li class="divider"></li>-->
 			    <li class="has-dropdown">
-			      <%= link_to image_tag(current_user.facebook_avatar, :alt => 'My awesome profile avatar', :size => '25x25', :class => "profile_avatar") + ' Howdy, ' + current_user.firstname.to_s + '!', edit_user_registration_path %>
+			      <%= link_to profile_photo(current_user, 'profile_avatar', 'square', '25x25') + ' Howdy, ' + current_user.firstname.to_s + '!', edit_user_registration_path %>
 			      <ul class="dropdown">
 			      	<li><%= link_to "Trang cá nhân", edit_user_registration_path %></li>
 			        <li><%= link_to "Sign out", destroy_session_path(:user), :method => :delete %></li>

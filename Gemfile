@@ -24,6 +24,7 @@ group :assets do
   gem 'zurb-foundation', '~> 4.0.4'
   gem 'foundation-icons-rails'
 end
+gem 'gravatar_image_tag'
 gem 'jquery-ui-rails'
 gem 'jquery_datepicker'
 gem 'fb_graph'

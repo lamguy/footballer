@@ -11,5 +11,20 @@ module ApplicationHelper
       "a #{object_type.downcase} which does not exist anymore"
     end
   end
+
+  def profile_photo(user, classname='comment-author-avatar left', type='square', size='40x40')
+
+    if user.facebook_avatar.present?
+      image_tag("http://graph.facebook.com/#{user.uid}/picture?type=#{type}", :alt => 'Awesome profile', :size => size, :class => "#{classname}")
+    else
+      gravatar_image_tag(user.email, 
+        :alt => 'Github Default Gravatar', 
+        :class => classname,
+        :gravatar => { 
+          :size => 40,
+          :default => 'https://assets.github.com/images/gravatars/gravatar-140.png' 
+          })
+    end
+  end
   
 end

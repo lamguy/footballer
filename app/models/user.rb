@@ -115,10 +115,6 @@ class User < ActiveRecord::Base
     '</div>'
   end
 
-  def profile_photo(type='square')
-    "http://graph.facebook.com/#{self.uid}/picture?type=#{type}"
-  end
-
   def name
     self.firstname.to_s + ' ' + self.lastname.to_s
   end

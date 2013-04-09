@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="comment-body small-12 large-12 column">
 
-			<%= link_to image_tag(comment.user.profile_photo, :alt => 'Awesome profile', :size => '40x40', :class => 'comment-author-avatar'), user_path(comment.user), :class => 'avatar-block' %>
+			<%= link_to profile_photo(comment.user), user_path(comment.user), :class => 'avatar-block' %>
 
           <% if current_user && current_user.following?(comment.user) %>
             <%= link_to 'Bye!', goodbye_user_path(comment.user), :class => 'button follow xsmall green unfollow-'+comment.user.id.to_s, :method => :post, :remote => true %>
