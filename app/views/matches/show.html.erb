@@ -3,7 +3,7 @@
     <div id="match-info">
       <div class="match-header">
         <div class="match-timestamp">
-          <span>Chủ nhật 13/05/2012 | <%= @match.stadium.name %> | Kick-off 09:00</span>
+          <span><%= @match.started_at.strftime("%A %d/%m/%Y") %> | <%= @match.stadium.name %> | Kick-off <%= @match.started_at.strftime("%H:%M") %></span>
         </div>
         <div class="match-competitors row">
           <div class="team team-home small-6 large-6 columns">
@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="match-overal row">
-        <% if @match.match_started? %>
+        <% if @match.started? %>
 
         <div class="team team-home small-6 large-6 columns">
           <ul class="goal-list">

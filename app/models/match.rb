@@ -13,10 +13,11 @@ class Match < ActiveRecord::Base
   has_many :comments
 
   attr_accessible :statistics, :team_away_goal, :home_score, :away_score, 
-  				  :team_away_id, :team_home_goal, :team_home_id, :stadium_id
+  				  :team_away_id, :team_home_goal, :team_home_id, :stadium_id,
+            :started_at, :ended_at
 
-  def match_started?
-  	DateTime.now + 600 < DateTime.now
+  def started?
+  	DateTime.now >= started_at
   end
 
   def home_score

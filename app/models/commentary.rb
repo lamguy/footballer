@@ -6,7 +6,7 @@ class Commentary < ActiveRecord::Base
   # Check whether the match has been started or not to display
   # timeframe of the commentary
   def minute
-  	if read_attribute(:minute).nil?
+  	if read_attribute(:minute).to_s == ''
   		'---'
   	else
   		read_attribute(:minute).to_s + '\''
