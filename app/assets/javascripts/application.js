@@ -43,8 +43,9 @@ $(document).ready(function() {
 	});
 
 	setInterval(function(){
-	  latestCommentaryId = $('#commentaries li').first().attr('id').replace(/commentary-/, '');
-	  $.getScript("/matches/1/latest_commentary.js?latestCommentaryId="+latestCommentaryId);
+	  var match_id = $('#match-info').data('id'),
+	  	  latestCommentaryId = $('#commentaries li').first().attr('id').replace(/commentary-/, '');
+	  $.getScript("/matches/"+match_id+"/latest_commentary.js?latestCommentaryId="+latestCommentaryId);
 	}, 5000);
 })
 

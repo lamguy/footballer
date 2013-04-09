@@ -1,6 +1,6 @@
 <div id="main-container-inner" class="row">
   <div id="match-left-content" class="small-7 large-7 columns">
-    <div id="match-info">
+    <div id="match-info" data-id="<%= @match.id %>">
       <div class="match-header">
         <div class="match-timestamp">
           <span><%= @match.started_at.strftime("%A %d/%m/%Y") %> | <%= @match.stadium.name %> | Kick-off <%= @match.started_at.strftime("%H:%M") %></span>
