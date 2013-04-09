@@ -42,11 +42,7 @@ $(document).ready(function() {
 
 	setInterval(function(){
 	  latestCommentaryId = $('#commentaries li').first().attr('id').replace(/commentary-/, '');
-	  $.get("/matches/1/latest_commentary.js?latestCommentaryId="+latestCommentaryId, function(data){
-	  	newHTML = $($.parseHTML(data));
-	  	newHTML.prependTo('#commentaries').effect("highlight", {}, 3000);
-	  },
-	  "html")
+	  $.getScript("/matches/1/latest_commentary.js?latestCommentaryId="+latestCommentaryId);
 	}, 5000);
 })
 

@@ -1,1 +1,2 @@
-<%= render( :partial => @commentaries, :object => @commentaries ) %>
+var newHTML = '<%= escape_javascript(render( :partial => @commentaries, :object => @commentaries )) %>';
+$('#commentaries').prepend(newHTML).effect("highlight", {}, 3000);
